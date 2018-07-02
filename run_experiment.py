@@ -36,7 +36,7 @@ if __name__ == '__main__':
 		p_name = prob.split('/')[-1].split('.')[0]
 		uploadable_ground_step_library_name = 'Ground_Compiler_Library//' + d_name + '.' + p_name
 
-		RELOAD = 1
+		RELOAD = 0
 		if RELOAD:
 			print('reloading')
 			ground_steps = just_compile(domain_file, prob, uploadable_ground_step_library_name)
@@ -56,5 +56,13 @@ if __name__ == '__main__':
 		print(p_name)
 
 		planner = GPlanner(ground_steps)
-		planner.solve(k=40, cutoff=1200)
+		#planner.solve(k=40, cutoff=1200)
+		out=planner.solve(k=1, cutoff=1200)
+		#printing out results
+		i=0
+		print("Printing Toposort")
+		for step in out[0].OrderingGraph.topoSort():
+			print("%d step processing"%(i))
+			print('\t\t{}\n'.format(str(step)))
+			i=i+1
 		# planner.solve(k=40, cutoff=10)
