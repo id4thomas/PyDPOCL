@@ -1,629 +1,3782 @@
 
 0
-fly['bob', '747', 'la', 'raleigh']_5d90
+sing_for['bob', 'bob', 'park']_845e
 	preconditions:
-		at['747', 'la']
-			cndts:	[1]
-			risks:	[0]
-		in['bob', '747']
-			cndts:	[11, 12]
-			risks:	[4, 5]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
 
 
 1
-fly['bob', '747', 'raleigh', 'la']_906e
+sing_for['bob', 'bob', 'street']_8d0c
 	preconditions:
-		at['747', 'raleigh']
-			cndts:	[0, 61]
-			risks:	[1]
-		in['bob', '747']
-			cndts:	[11, 12]
-			risks:	[4, 5]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
 
 
 2
-drive['bob', 'accord', 'la', 'raleigh']_2b89
+sing_for['bob', 'bob', 'shop']_8a2b
 	preconditions:
-		in['bob', 'accord']
-			cndts:	[8, 7]
-			risks:	[9, 10]
-		at['accord', 'la']
-			cndts:	[3]
-			risks:	[2]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
 
 
 3
-drive['bob', 'accord', 'raleigh', 'la']_4e9e
+sing_for['bob', 'jack', 'park']_c650
 	preconditions:
-		in['bob', 'accord']
-			cndts:	[8, 7]
-			risks:	[9, 10]
-		at['accord', 'raleigh']
-			cndts:	[2, 61]
-			risks:	[3]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
 
 
 4
-deplane['bob', '747', 'la']_67df
+sing_for['bob', 'jack', 'street']_c42a
 	preconditions:
-		in['bob', '747']
-			cndts:	[11, 12]
-			risks:	[4, 5]
-		at['747', 'la']
-			cndts:	[1]
-			risks:	[0]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
 
 
 5
-deplane['bob', '747', 'raleigh']_9058
+sing_for['bob', 'jack', 'shop']_ad32
 	preconditions:
-		in['bob', '747']
-			cndts:	[11, 12]
-			risks:	[4, 5]
-		at['747', 'raleigh']
-			cndts:	[0, 61]
-			risks:	[1]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
 
 
 6
-buy-tickets['bob']_e4bd
+sing_for['bob', 'mary', 'park']_5413
 	preconditions:
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
 
 
 7
-get-in-car['bob', 'accord', 'la']_9e39
+sing_for['bob', 'mary', 'street']_20c2
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
-		at['accord', 'la']
-			cndts:	[3]
-			risks:	[2]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
 
 
 8
-get-in-car['bob', 'accord', 'raleigh']_3c34
+sing_for['bob', 'mary', 'shop']_27f2
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
-		at['accord', 'raleigh']
-			cndts:	[2, 61]
-			risks:	[3]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
 
 
 9
-get-out-of-car['bob', 'accord', 'la']_eeae
+sing_for['jack', 'bob', 'park']_da7b
 	preconditions:
-		in['bob', 'accord']
-			cndts:	[8, 7]
-			risks:	[9, 10]
-		at['accord', 'la']
-			cndts:	[3]
-			risks:	[2]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
 
 
 10
-get-out-of-car['bob', 'accord', 'raleigh']_d551
+sing_for['jack', 'bob', 'street']_485c
 	preconditions:
-		in['bob', 'accord']
-			cndts:	[8, 7]
-			risks:	[9, 10]
-		at['accord', 'raleigh']
-			cndts:	[2, 61]
-			risks:	[3]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
 
 
 11
-board-plane['bob', '747', 'la']_a34b
+sing_for['jack', 'bob', 'shop']_91eb
 	preconditions:
-		has-ticket['bob']
-			cndts:	[6]
-			risks:	[11, 12, 61]
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
-		at['747', 'la']
-			cndts:	[1]
-			risks:	[0]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
 
 
 12
-board-plane['bob', '747', 'raleigh']_579f
+sing_for['jack', 'jack', 'park']_bf27
 	preconditions:
-		has-ticket['bob']
-			cndts:	[6]
-			risks:	[11, 12, 61]
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
-		at['747', 'raleigh']
-			cndts:	[0, 61]
-			risks:	[1]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
 
 
 13
-begin:travel[]_64e5
+sing_for['jack', 'jack', 'street']_40ff
 	preconditions:
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
 
 
 14
-finish:travel[]_1987
+sing_for['jack', 'jack', 'shop']_edc0
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
 
 
 15
-travel['bob', 'la']_57c1
+sing_for['jack', 'mary', 'park']_8702
 	preconditions:
-	sub_steps:
-		deplane['bob', '747', 'la']_9ebb
-	sub_orderings:
-		begin:travel[]_7696 < deplane['bob', '747', 'la']_9ebb
-		deplane['bob', '747', 'la']_9ebb < finish:travel[]_e911
-		begin:travel[]_7696 < finish:travel[]_e911
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
 
 
 16
-begin:travel[]_c334
+sing_for['jack', 'mary', 'street']_6a09
 	preconditions:
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
 
 
 17
-finish:travel[]_8105
+sing_for['jack', 'mary', 'shop']_233b
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
 
 
 18
-travel['bob', 'raleigh']_5f9e
+sing_for['mary', 'bob', 'park']_c0de
 	preconditions:
-	sub_steps:
-		deplane['bob', '747', 'raleigh']_6fab
-	sub_orderings:
-		deplane['bob', '747', 'raleigh']_6fab < finish:travel[]_3770
-		begin:travel[]_9256 < finish:travel[]_3770
-		begin:travel[]_9256 < deplane['bob', '747', 'raleigh']_6fab
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
 
 
 19
-begin:travel[]_a2f0
+sing_for['mary', 'bob', 'street']_d68b
 	preconditions:
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
 
 
 20
-finish:travel[]_5a9d
+sing_for['mary', 'bob', 'shop']_5d4f
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
 
 
 21
-travel['bob', 'la']_eae1
+sing_for['mary', 'jack', 'park']_d316
 	preconditions:
-	sub_steps:
-		get-out-of-car['bob', 'accord', 'la']_0b52
-	sub_orderings:
-		begin:travel[]_c430 < finish:travel[]_77d0
-		begin:travel[]_c430 < get-out-of-car['bob', 'accord', 'la']_0b52
-		get-out-of-car['bob', 'accord', 'la']_0b52 < finish:travel[]_77d0
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
 
 
 22
-begin:travel[]_329f
+sing_for['mary', 'jack', 'street']_885d
 	preconditions:
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
 
 
 23
-finish:travel[]_1c76
+sing_for['mary', 'jack', 'shop']_d0a3
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
 
 
 24
-travel['bob', 'raleigh']_b6cb
+sing_for['mary', 'mary', 'park']_7d16
 	preconditions:
-	sub_steps:
-		get-out-of-car['bob', 'accord', 'raleigh']_102c
-	sub_orderings:
-		begin:travel[]_cb40 < finish:travel[]_aba6
-		get-out-of-car['bob', 'accord', 'raleigh']_102c < finish:travel[]_aba6
-		begin:travel[]_cb40 < get-out-of-car['bob', 'accord', 'raleigh']_102c
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
 
 
 25
-begin:travel-by-plane[]_a54e
+sing_for['mary', 'mary', 'street']_3f91
 	preconditions:
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
 
 
 26
-finish:travel-by-plane[]_0b8a
+sing_for['mary', 'mary', 'shop']_d835
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
-		not-at['bob', 'raleigh']
-			cndts:	[8, 27, 12, 36]
-			risks:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
 
 
 27
-travel-by-plane['bob', 'raleigh', 'la']_047e
+accept_propose['bob', 'bob', 'park']_219d
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
-	sub_steps:
-		buy-tickets['bob']_0893
-		fly['bob', '747', 'raleigh', 'la']_8648
-		deplane['bob', '747', 'la']_b9ca
-		board-plane['bob', '747', 'raleigh']_639f
-	sub_orderings:
-		begin:travel-by-plane[]_4e5d < finish:travel-by-plane[]_afff
-		begin:travel-by-plane[]_4e5d < fly['bob', '747', 'raleigh', 'la']_8648
-		buy-tickets['bob']_0893 < finish:travel-by-plane[]_afff
-		board-plane['bob', '747', 'raleigh']_639f < deplane['bob', '747', 'la']_b9ca
-		board-plane['bob', '747', 'raleigh']_639f < finish:travel-by-plane[]_afff
-		board-plane['bob', '747', 'raleigh']_639f < fly['bob', '747', 'raleigh', 'la']_8648
-		begin:travel-by-plane[]_4e5d < deplane['bob', '747', 'la']_b9ca
-		begin:travel-by-plane[]_4e5d < buy-tickets['bob']_0893
-		fly['bob', '747', 'raleigh', 'la']_8648 < finish:travel-by-plane[]_afff
-		buy-tickets['bob']_0893 < board-plane['bob', '747', 'raleigh']_639f
-		begin:travel-by-plane[]_4e5d < board-plane['bob', '747', 'raleigh']_639f
-		deplane['bob', '747', 'la']_b9ca < finish:travel-by-plane[]_afff
-		fly['bob', '747', 'raleigh', 'la']_8648 < deplane['bob', '747', 'la']_b9ca
-		Edge board-plane['bob', '747', 'raleigh']_639f --in['bob', '747']--> deplane['bob', '747', 'la']_b9ca
-		Edge board-plane['bob', '747', 'raleigh']_639f --in['bob', '747']--> fly['bob', '747', 'raleigh', 'la']_8648
-		Edge buy-tickets['bob']_0893 --has-ticket['bob']--> board-plane['bob', '747', 'raleigh']_639f
-		Edge fly['bob', '747', 'raleigh', 'la']_8648 --at['747', 'la']--> deplane['bob', '747', 'la']_b9ca
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 28
-begin:travel-by-plane[]_cc6f
+accept_propose['bob', 'bob', 'street']_c7c4
 	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 29
-finish:travel-by-plane[]_7c6f
+accept_propose['bob', 'bob', 'shop']_66b5
 	preconditions:
-		not-at['bob', 'la']
-			cndts:	[33, 11, 30, 7]
-			risks:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 30
-travel-by-plane['bob', 'la', 'raleigh']_391d
+accept_propose['bob', 'jack', 'park']_4e54
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
-	sub_steps:
-		buy-tickets['bob']_77af
-		fly['bob', '747', 'la', 'raleigh']_b142
-		deplane['bob', '747', 'raleigh']_26d1
-		board-plane['bob', '747', 'la']_603d
-	sub_orderings:
-		begin:travel-by-plane[]_9554 < deplane['bob', '747', 'raleigh']_26d1
-		board-plane['bob', '747', 'la']_603d < deplane['bob', '747', 'raleigh']_26d1
-		fly['bob', '747', 'la', 'raleigh']_b142 < deplane['bob', '747', 'raleigh']_26d1
-		fly['bob', '747', 'la', 'raleigh']_b142 < finish:travel-by-plane[]_daa8
-		deplane['bob', '747', 'raleigh']_26d1 < finish:travel-by-plane[]_daa8
-		board-plane['bob', '747', 'la']_603d < finish:travel-by-plane[]_daa8
-		begin:travel-by-plane[]_9554 < fly['bob', '747', 'la', 'raleigh']_b142
-		board-plane['bob', '747', 'la']_603d < fly['bob', '747', 'la', 'raleigh']_b142
-		buy-tickets['bob']_77af < finish:travel-by-plane[]_daa8
-		begin:travel-by-plane[]_9554 < board-plane['bob', '747', 'la']_603d
-		begin:travel-by-plane[]_9554 < buy-tickets['bob']_77af
-		buy-tickets['bob']_77af < board-plane['bob', '747', 'la']_603d
-		begin:travel-by-plane[]_9554 < finish:travel-by-plane[]_daa8
-		Edge fly['bob', '747', 'la', 'raleigh']_b142 --at['747', 'raleigh']--> deplane['bob', '747', 'raleigh']_26d1
-		Edge buy-tickets['bob']_77af --has-ticket['bob']--> board-plane['bob', '747', 'la']_603d
-		Edge board-plane['bob', '747', 'la']_603d --in['bob', '747']--> fly['bob', '747', 'la', 'raleigh']_b142
-		Edge board-plane['bob', '747', 'la']_603d --in['bob', '747']--> deplane['bob', '747', 'raleigh']_26d1
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 31
-begin:travel-by-car[]_24f1
+accept_propose['bob', 'jack', 'street']_47a3
 	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 32
-finish:travel-by-car[]_e7d6
+accept_propose['bob', 'jack', 'shop']_54a8
 	preconditions:
-		not-at['bob', 'la']
-			cndts:	[33, 11, 30, 7]
-			risks:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 33
-travel-by-car['bob', 'la', 'raleigh']_4214
+accept_propose['bob', 'mary', 'park']_63e4
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
-	sub_steps:
-		get-in-car['bob', 'accord', 'la']_996c
-		drive['bob', 'accord', 'la', 'raleigh']_790e
-		get-out-of-car['bob', 'accord', 'raleigh']_a530
-	sub_orderings:
-		get-out-of-car['bob', 'accord', 'raleigh']_a530 < finish:travel-by-car[]_9e3d
-		drive['bob', 'accord', 'la', 'raleigh']_790e < finish:travel-by-car[]_9e3d
-		begin:travel-by-car[]_854f < finish:travel-by-car[]_9e3d
-		get-in-car['bob', 'accord', 'la']_996c < get-out-of-car['bob', 'accord', 'raleigh']_a530
-		get-in-car['bob', 'accord', 'la']_996c < finish:travel-by-car[]_9e3d
-		begin:travel-by-car[]_854f < get-out-of-car['bob', 'accord', 'raleigh']_a530
-		drive['bob', 'accord', 'la', 'raleigh']_790e < get-out-of-car['bob', 'accord', 'raleigh']_a530
-		begin:travel-by-car[]_854f < drive['bob', 'accord', 'la', 'raleigh']_790e
-		get-in-car['bob', 'accord', 'la']_996c < drive['bob', 'accord', 'la', 'raleigh']_790e
-		begin:travel-by-car[]_854f < get-in-car['bob', 'accord', 'la']_996c
-		Edge get-in-car['bob', 'accord', 'la']_996c --in['bob', 'accord']--> get-out-of-car['bob', 'accord', 'raleigh']_a530
-		Edge get-in-car['bob', 'accord', 'la']_996c --in['bob', 'accord']--> drive['bob', 'accord', 'la', 'raleigh']_790e
-		Edge drive['bob', 'accord', 'la', 'raleigh']_790e --at['accord', 'raleigh']--> get-out-of-car['bob', 'accord', 'raleigh']_a530
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 34
-begin:travel-by-car[]_1129
+accept_propose['bob', 'mary', 'street']_2c6f
 	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 35
-finish:travel-by-car[]_1b6c
+accept_propose['bob', 'mary', 'shop']_d6cd
 	preconditions:
-		not-at['bob', 'raleigh']
-			cndts:	[8, 27, 12, 36]
-			risks:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['bob']
+			cndts:	[0, 1, 2, 9, 10, 11, 18, 19, 20]
+			risks:	[198]
 
 
 36
-travel-by-car['bob', 'raleigh', 'la']_de1f
+accept_propose['jack', 'bob', 'park']_29d0
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
-	sub_steps:
-		get-in-car['bob', 'accord', 'raleigh']_55c5
-		drive['bob', 'accord', 'raleigh', 'la']_a4ce
-		get-out-of-car['bob', 'accord', 'la']_c506
-	sub_orderings:
-		begin:travel-by-car[]_4720 < get-in-car['bob', 'accord', 'raleigh']_55c5
-		begin:travel-by-car[]_4720 < drive['bob', 'accord', 'raleigh', 'la']_a4ce
-		begin:travel-by-car[]_4720 < get-out-of-car['bob', 'accord', 'la']_c506
-		begin:travel-by-car[]_4720 < finish:travel-by-car[]_e6eb
-		get-in-car['bob', 'accord', 'raleigh']_55c5 < drive['bob', 'accord', 'raleigh', 'la']_a4ce
-		get-in-car['bob', 'accord', 'raleigh']_55c5 < get-out-of-car['bob', 'accord', 'la']_c506
-		drive['bob', 'accord', 'raleigh', 'la']_a4ce < get-out-of-car['bob', 'accord', 'la']_c506
-		get-out-of-car['bob', 'accord', 'la']_c506 < finish:travel-by-car[]_e6eb
-		drive['bob', 'accord', 'raleigh', 'la']_a4ce < finish:travel-by-car[]_e6eb
-		get-in-car['bob', 'accord', 'raleigh']_55c5 < finish:travel-by-car[]_e6eb
-		Edge get-in-car['bob', 'accord', 'raleigh']_55c5 --in['bob', 'accord']--> drive['bob', 'accord', 'raleigh', 'la']_a4ce
-		Edge get-in-car['bob', 'accord', 'raleigh']_55c5 --in['bob', 'accord']--> get-out-of-car['bob', 'accord', 'la']_c506
-		Edge drive['bob', 'accord', 'raleigh', 'la']_a4ce --at['accord', 'la']--> get-out-of-car['bob', 'accord', 'la']_c506
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 37
-begin:travel[]_5ac4
+accept_propose['jack', 'bob', 'street']_d461
 	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 38
-finish:travel[]_a9a0
+accept_propose['jack', 'bob', 'shop']_c0c6
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 39
-travel['bob', 'la']_287b
+accept_propose['jack', 'jack', 'park']_1e4b
 	preconditions:
-	sub_steps:
-		travel['bob', 'la']_ed31
-	sub_orderings:
-		begin:travel[]_cb9c < finish:travel[]_0709
-		begin:travel[]_cb9c < travel['bob', 'la']_ed31
-		travel['bob', 'la']_ed31 < finish:travel[]_0709
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 40
-begin:travel[]_1c9d
+accept_propose['jack', 'jack', 'street']_311d
 	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 41
-finish:travel[]_2a26
+accept_propose['jack', 'jack', 'shop']_31da
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 42
-travel['bob', 'raleigh']_4d75
+accept_propose['jack', 'mary', 'park']_606e
 	preconditions:
-	sub_steps:
-		travel['bob', 'raleigh']_8e45
-	sub_orderings:
-		begin:travel[]_f57a < finish:travel[]_3d62
-		travel['bob', 'raleigh']_8e45 < finish:travel[]_3d62
-		begin:travel[]_f57a < travel['bob', 'raleigh']_8e45
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 43
-begin:travel[]_428f
+accept_propose['jack', 'mary', 'street']_676e
 	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 44
-finish:travel[]_f336
+accept_propose['jack', 'mary', 'shop']_6d0d
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['jack']
+			cndts:	[3, 4, 5, 12, 13, 14, 21, 22, 23]
+			risks:	[198]
 
 
 45
-travel['bob', 'la']_1fd7
+accept_propose['mary', 'bob', 'park']_bb20
 	preconditions:
-	sub_steps:
-		travel['bob', 'la']_bd69
-	sub_orderings:
-		travel['bob', 'la']_bd69 < finish:travel[]_7acf
-		begin:travel[]_be60 < finish:travel[]_7acf
-		begin:travel[]_be60 < travel['bob', 'la']_bd69
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 46
-begin:travel[]_348a
+accept_propose['mary', 'bob', 'street']_0925
 	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 47
-finish:travel[]_4bf7
+accept_propose['mary', 'bob', 'shop']_afc6
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		desperate['bob']
+			cndts:	[128, 135, 136, 137, 144, 145, 146, 126, 127]
+			risks:	[36, 37, 38, 198, 45, 46, 47, 27, 28, 29]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 48
-travel['bob', 'raleigh']_13ce
+accept_propose['mary', 'jack', 'park']_8842
 	preconditions:
-	sub_steps:
-		travel['bob', 'raleigh']_ed00
-	sub_orderings:
-		begin:travel[]_2dfc < travel['bob', 'raleigh']_ed00
-		travel['bob', 'raleigh']_ed00 < finish:travel[]_85cc
-		begin:travel[]_2dfc < finish:travel[]_85cc
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 49
-begin:travel[]_533c
+accept_propose['mary', 'jack', 'street']_4c84
 	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 50
-finish:travel[]_7faa
+accept_propose['mary', 'jack', 'shop']_7484
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		desperate['jack']
+			cndts:	[129, 130, 131, 138, 139, 140, 147, 148, 149]
+			risks:	[32, 198, 39, 40, 41, 48, 49, 50, 30, 31]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 51
-travel['bob', 'la']_a1eb
+accept_propose['mary', 'mary', 'park']_35ac
 	preconditions:
-	sub_steps:
-		travel-by-plane['bob', 'raleigh', 'la']_808f
-	sub_orderings:
-		travel-by-plane['bob', 'raleigh', 'la']_808f < finish:travel[]_7f79
-		begin:travel[]_7883 < finish:travel[]_7f79
-		begin:travel[]_7883 < travel-by-plane['bob', 'raleigh', 'la']_808f
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 52
-begin:travel[]_841a
+accept_propose['mary', 'mary', 'street']_a2e8
 	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 53
-finish:travel[]_4f5a
+accept_propose['mary', 'mary', 'shop']_123b
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		desperate['mary']
+			cndts:	[132, 133, 134, 141, 142, 143, 150, 151, 152]
+			risks:	[33, 34, 35, 198, 42, 43, 44, 51, 52, 53]
+		delighted['mary']
+			cndts:	[6, 7, 8, 15, 16, 17, 24, 25, 26]
+			risks:	[198]
 
 
 54
-travel['bob', 'raleigh']_06a6
+fall_in_love['bob', 'bob']_49d9
 	preconditions:
-	sub_steps:
-		travel-by-plane['bob', 'la', 'raleigh']_b35a
-	sub_orderings:
-		begin:travel[]_a139 < travel-by-plane['bob', 'la', 'raleigh']_b35a
-		travel-by-plane['bob', 'la', 'raleigh']_b35a < finish:travel[]_a81d
-		begin:travel[]_a139 < finish:travel[]_a81d
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		like['bob', 'bob']
+			cndts:	[]
+			risks:	[198]
 
 
 55
-begin:travel[]_dfb8
+fall_in_love['bob', 'jack']_acb4
 	preconditions:
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		like['bob', 'jack']
+			cndts:	[]
+			risks:	[198]
 
 
 56
-finish:travel[]_c2ae
+fall_in_love['bob', 'mary']_8342
 	preconditions:
-		at['bob', 'raleigh']
-			cndts:	[33, 34, 5, 10, 42, 48, 18, 54, 24, 25, 61, 30, 57]
-			risks:	[8, 27, 12, 36]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		like['bob', 'mary']
+			cndts:	[]
+			risks:	[198]
 
 
 57
-travel['bob', 'raleigh']_4472
+fall_in_love['jack', 'bob']_d800
 	preconditions:
-	sub_steps:
-		travel-by-car['bob', 'la', 'raleigh']_58e3
-	sub_orderings:
-		travel-by-car['bob', 'la', 'raleigh']_58e3 < finish:travel[]_df30
-		begin:travel[]_d5b3 < travel-by-car['bob', 'la', 'raleigh']_58e3
-		begin:travel[]_d5b3 < finish:travel[]_df30
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		like['jack', 'bob']
+			cndts:	[]
+			risks:	[198]
 
 
 58
-begin:travel[]_e0bd
+fall_in_love['jack', 'jack']_a317
 	preconditions:
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		like['jack', 'jack']
+			cndts:	[]
+			risks:	[198]
 
 
 59
-finish:travel[]_13aa
+fall_in_love['jack', 'mary']_1438
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		like['jack', 'mary']
+			cndts:	[]
+			risks:	[198]
 
 
 60
-travel['bob', 'la']_6837
+fall_in_love['mary', 'bob']_63e3
 	preconditions:
-	sub_steps:
-		travel-by-car['bob', 'raleigh', 'la']_5415
-	sub_orderings:
-		begin:travel[]_0a85 < finish:travel[]_5a37
-		travel-by-car['bob', 'raleigh', 'la']_5415 < finish:travel[]_5a37
-		begin:travel[]_0a85 < travel-by-car['bob', 'raleigh', 'la']_5415
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		like['mary', 'bob']
+			cndts:	[198]
+			risks:	[]
 
 
 61
-dummy_init[]_acaf
+fall_in_love['mary', 'jack']_95e1
 	preconditions:
-		not-has-ticket['bob']
-		not-place['raleigh']
-		at['747', 'raleigh']
-		not-person['bob']
-		at['bob', 'raleigh']
-		not-place['la']
-		at['accord', 'raleigh']
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		like['mary', 'jack']
+			cndts:	[]
+			risks:	[198]
 
 
 62
-dummy_goal[]_b00e
+fall_in_love['mary', 'mary']_3e4d
 	preconditions:
-		at['bob', 'la']
-			cndts:	[4, 36, 39, 9, 45, 60, 15, 51, 21, 27, 28, 31]
-			risks:	[33, 11, 30, 7]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		like['mary', 'mary']
+			cndts:	[]
+			risks:	[198]
+
+
+63
+accept_ring['bob', 'bob', 'park', 'proposering']_637e
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		wait_accept['bob', 'bob']
+			cndts:	[153, 154, 155]
+			risks:	[198]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+64
+accept_ring['bob', 'bob', 'street', 'proposering']_b6bc
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		wait_accept['bob', 'bob']
+			cndts:	[153, 154, 155]
+			risks:	[198]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+65
+accept_ring['bob', 'bob', 'shop', 'proposering']_df79
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		wait_accept['bob', 'bob']
+			cndts:	[153, 154, 155]
+			risks:	[198]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+66
+accept_ring['bob', 'jack', 'park', 'proposering']_0cd8
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		wait_accept['jack', 'bob']
+			cndts:	[162, 163, 164]
+			risks:	[198]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+67
+accept_ring['bob', 'jack', 'street', 'proposering']_1dfa
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		wait_accept['jack', 'bob']
+			cndts:	[162, 163, 164]
+			risks:	[198]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+68
+accept_ring['bob', 'jack', 'shop', 'proposering']_518d
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		wait_accept['jack', 'bob']
+			cndts:	[162, 163, 164]
+			risks:	[198]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+69
+accept_ring['bob', 'mary', 'park', 'proposering']_dff2
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		wait_accept['mary', 'bob']
+			cndts:	[171, 172, 173]
+			risks:	[198]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+70
+accept_ring['bob', 'mary', 'street', 'proposering']_b9ab
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		wait_accept['mary', 'bob']
+			cndts:	[171, 172, 173]
+			risks:	[198]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+71
+accept_ring['bob', 'mary', 'shop', 'proposering']_8a96
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		wait_accept['mary', 'bob']
+			cndts:	[171, 172, 173]
+			risks:	[198]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+72
+accept_ring['jack', 'bob', 'park', 'proposering']_0b0f
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		wait_accept['bob', 'jack']
+			cndts:	[156, 157, 158]
+			risks:	[198]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+73
+accept_ring['jack', 'bob', 'street', 'proposering']_1666
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		wait_accept['bob', 'jack']
+			cndts:	[156, 157, 158]
+			risks:	[198]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+74
+accept_ring['jack', 'bob', 'shop', 'proposering']_c702
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		wait_accept['bob', 'jack']
+			cndts:	[156, 157, 158]
+			risks:	[198]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+75
+accept_ring['jack', 'jack', 'park', 'proposering']_23b5
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		wait_accept['jack', 'jack']
+			cndts:	[165, 166, 167]
+			risks:	[198]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+76
+accept_ring['jack', 'jack', 'street', 'proposering']_5199
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		wait_accept['jack', 'jack']
+			cndts:	[165, 166, 167]
+			risks:	[198]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+77
+accept_ring['jack', 'jack', 'shop', 'proposering']_c343
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		wait_accept['jack', 'jack']
+			cndts:	[165, 166, 167]
+			risks:	[198]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+78
+accept_ring['jack', 'mary', 'park', 'proposering']_5bfd
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		wait_accept['mary', 'jack']
+			cndts:	[176, 174, 175]
+			risks:	[198]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+79
+accept_ring['jack', 'mary', 'street', 'proposering']_94a2
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		wait_accept['mary', 'jack']
+			cndts:	[176, 174, 175]
+			risks:	[198]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+80
+accept_ring['jack', 'mary', 'shop', 'proposering']_f2e6
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		wait_accept['mary', 'jack']
+			cndts:	[176, 174, 175]
+			risks:	[198]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+81
+accept_ring['mary', 'bob', 'park', 'proposering']_716d
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		wait_accept['bob', 'mary']
+			cndts:	[160, 161, 159]
+			risks:	[198]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+82
+accept_ring['mary', 'bob', 'street', 'proposering']_4408
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		wait_accept['bob', 'mary']
+			cndts:	[160, 161, 159]
+			risks:	[198]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+83
+accept_ring['mary', 'bob', 'shop', 'proposering']_6c01
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		wait_accept['bob', 'mary']
+			cndts:	[160, 161, 159]
+			risks:	[198]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+84
+accept_ring['mary', 'jack', 'park', 'proposering']_59b2
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		wait_accept['jack', 'mary']
+			cndts:	[168, 169, 170]
+			risks:	[198]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+85
+accept_ring['mary', 'jack', 'street', 'proposering']_0494
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		wait_accept['jack', 'mary']
+			cndts:	[168, 169, 170]
+			risks:	[198]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+86
+accept_ring['mary', 'jack', 'shop', 'proposering']_9f92
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		wait_accept['jack', 'mary']
+			cndts:	[168, 169, 170]
+			risks:	[198]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+87
+accept_ring['mary', 'mary', 'park', 'proposering']_dc38
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		wait_accept['mary', 'mary']
+			cndts:	[177, 178, 179]
+			risks:	[198]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+88
+accept_ring['mary', 'mary', 'street', 'proposering']_4db4
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		wait_accept['mary', 'mary']
+			cndts:	[177, 178, 179]
+			risks:	[198]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+89
+accept_ring['mary', 'mary', 'shop', 'proposering']_6aca
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		wait_accept['mary', 'mary']
+			cndts:	[177, 178, 179]
+			risks:	[198]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+90
+buy_ring['bob', 'proposering', 'park']_a417
+	preconditions:
+		at['proposering', 'park']
+			cndts:	[]
+			risks:	[96, 90, 93]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+
+
+91
+buy_ring['bob', 'proposering', 'street']_418d
+	preconditions:
+		at['proposering', 'street']
+			cndts:	[]
+			risks:	[97, 91, 94]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+
+
+92
+buy_ring['bob', 'proposering', 'shop']_fd03
+	preconditions:
+		at['proposering', 'shop']
+			cndts:	[198]
+			risks:	[98, 92, 95]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+
+
+93
+buy_ring['jack', 'proposering', 'park']_7f6b
+	preconditions:
+		at['proposering', 'park']
+			cndts:	[]
+			risks:	[96, 90, 93]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+
+
+94
+buy_ring['jack', 'proposering', 'street']_dba4
+	preconditions:
+		at['proposering', 'street']
+			cndts:	[]
+			risks:	[97, 91, 94]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+
+
+95
+buy_ring['jack', 'proposering', 'shop']_b7b2
+	preconditions:
+		at['proposering', 'shop']
+			cndts:	[198]
+			risks:	[98, 92, 95]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+
+
+96
+buy_ring['mary', 'proposering', 'park']_7bd3
+	preconditions:
+		at['proposering', 'park']
+			cndts:	[]
+			risks:	[96, 90, 93]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+
+
+97
+buy_ring['mary', 'proposering', 'street']_7df8
+	preconditions:
+		at['proposering', 'street']
+			cndts:	[]
+			risks:	[97, 91, 94]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+
+
+98
+buy_ring['mary', 'proposering', 'shop']_a7d0
+	preconditions:
+		at['proposering', 'shop']
+			cndts:	[198]
+			risks:	[98, 92, 95]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+
+
+99
+propose['bob', 'bob', 'park']_35a2
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+
+
+100
+propose['bob', 'bob', 'street']_a54c
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+
+
+101
+propose['bob', 'bob', 'shop']_1460
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+
+
+102
+propose['bob', 'jack', 'park']_a87c
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+
+
+103
+propose['bob', 'jack', 'street']_ca19
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+
+
+104
+propose['bob', 'jack', 'shop']_555d
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+
+
+105
+propose['bob', 'mary', 'park']_6e7a
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+
+
+106
+propose['bob', 'mary', 'street']_d8ec
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+
+
+107
+propose['bob', 'mary', 'shop']_33c4
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		brave['bob']
+			cndts:	[198]
+			risks:	[]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+
+
+108
+propose['jack', 'bob', 'park']_f6e4
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+
+
+109
+propose['jack', 'bob', 'street']_93fe
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+
+
+110
+propose['jack', 'bob', 'shop']_0cfa
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+
+
+111
+propose['jack', 'jack', 'park']_f112
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+
+
+112
+propose['jack', 'jack', 'street']_6895
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+
+
+113
+propose['jack', 'jack', 'shop']_baa4
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+
+
+114
+propose['jack', 'mary', 'park']_4bc9
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+
+
+115
+propose['jack', 'mary', 'street']_3cf5
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+
+
+116
+propose['jack', 'mary', 'shop']_9d31
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		brave['jack']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+
+
+117
+propose['mary', 'bob', 'park']_f10e
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+
+
+118
+propose['mary', 'bob', 'street']_8a87
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+
+
+119
+propose['mary', 'bob', 'shop']_f696
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+
+
+120
+propose['mary', 'jack', 'park']_d8ac
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+
+
+121
+propose['mary', 'jack', 'street']_60fa
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+
+
+122
+propose['mary', 'jack', 'shop']_ffd4
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+
+
+123
+propose['mary', 'mary', 'park']_4919
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+
+
+124
+propose['mary', 'mary', 'street']_bfc2
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+
+
+125
+propose['mary', 'mary', 'shop']_d947
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		brave['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+
+
+126
+steal['bob', 'bob', 'park', 'proposering']_b823
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+127
+steal['bob', 'bob', 'street', 'proposering']_402d
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+128
+steal['bob', 'bob', 'shop', 'proposering']_4a2e
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+129
+steal['bob', 'jack', 'park', 'proposering']_b806
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+130
+steal['bob', 'jack', 'street', 'proposering']_e9f7
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+131
+steal['bob', 'jack', 'shop', 'proposering']_d18b
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+132
+steal['bob', 'mary', 'park', 'proposering']_5be1
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+133
+steal['bob', 'mary', 'street', 'proposering']_113f
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+134
+steal['bob', 'mary', 'shop', 'proposering']_0e2d
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['bob']
+			cndts:	[]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+135
+steal['jack', 'bob', 'park', 'proposering']_e05e
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+136
+steal['jack', 'bob', 'street', 'proposering']_0a53
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+137
+steal['jack', 'bob', 'shop', 'proposering']_ba17
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+138
+steal['jack', 'jack', 'park', 'proposering']_37b8
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+139
+steal['jack', 'jack', 'street', 'proposering']_7c2b
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+140
+steal['jack', 'jack', 'shop', 'proposering']_6954
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+141
+steal['jack', 'mary', 'park', 'proposering']_b6da
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+142
+steal['jack', 'mary', 'street', 'proposering']_d942
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+143
+steal['jack', 'mary', 'shop', 'proposering']_2d6d
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['jack']
+			cndts:	[198]
+			risks:	[]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+144
+steal['mary', 'bob', 'park', 'proposering']_8b20
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+145
+steal['mary', 'bob', 'street', 'proposering']_bba0
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+146
+steal['mary', 'bob', 'shop', 'proposering']_92d6
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+147
+steal['mary', 'jack', 'park', 'proposering']_6e24
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+148
+steal['mary', 'jack', 'street', 'proposering']_ed80
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+149
+steal['mary', 'jack', 'shop', 'proposering']_56d6
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+150
+steal['mary', 'mary', 'park', 'proposering']_25fd
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+151
+steal['mary', 'mary', 'street', 'proposering']_bb99
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+152
+steal['mary', 'mary', 'shop', 'proposering']_8b39
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+		jealousy['mary']
+			cndts:	[]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+153
+give_ring['bob', 'bob', 'park', 'proposering']_bb58
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+154
+give_ring['bob', 'bob', 'street', 'proposering']_c148
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+155
+give_ring['bob', 'bob', 'shop', 'proposering']_ea8a
+	preconditions:
+		love['bob', 'bob']
+			cndts:	[54]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		propose['bob', 'bob']
+			cndts:	[99, 100, 101]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+156
+give_ring['bob', 'jack', 'park', 'proposering']_7245
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+157
+give_ring['bob', 'jack', 'street', 'proposering']_2b19
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+158
+give_ring['bob', 'jack', 'shop', 'proposering']_d26c
+	preconditions:
+		love['bob', 'jack']
+			cndts:	[55]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		propose['bob', 'jack']
+			cndts:	[104, 102, 103]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+159
+give_ring['bob', 'mary', 'park', 'proposering']_d778
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+160
+give_ring['bob', 'mary', 'street', 'proposering']_bab7
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+161
+give_ring['bob', 'mary', 'shop', 'proposering']_c839
+	preconditions:
+		love['bob', 'mary']
+			cndts:	[56, 198]
+			risks:	[]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		propose['bob', 'mary']
+			cndts:	[105, 106, 107]
+			risks:	[198]
+		has['bob', 'proposering']
+			cndts:	[64, 65, 66, 67, 68, 69, 70, 71, 90, 91, 92, 63]
+			risks:	[64, 65, 128, 198, 135, 72, 73, 74, 136, 137, 144, 81, 82, 83, 145, 146, 127, 126, 63]
+
+
+162
+give_ring['jack', 'bob', 'park', 'proposering']_fa06
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+163
+give_ring['jack', 'bob', 'street', 'proposering']_59e5
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+164
+give_ring['jack', 'bob', 'shop', 'proposering']_c1f0
+	preconditions:
+		love['jack', 'bob']
+			cndts:	[57]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		propose['jack', 'bob']
+			cndts:	[108, 109, 110]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+165
+give_ring['jack', 'jack', 'park', 'proposering']_b1e8
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+166
+give_ring['jack', 'jack', 'street', 'proposering']_8e7b
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+167
+give_ring['jack', 'jack', 'shop', 'proposering']_5a5f
+	preconditions:
+		love['jack', 'jack']
+			cndts:	[58]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		propose['jack', 'jack']
+			cndts:	[112, 113, 111]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+168
+give_ring['jack', 'mary', 'park', 'proposering']_89d3
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+169
+give_ring['jack', 'mary', 'street', 'proposering']_f476
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+170
+give_ring['jack', 'mary', 'shop', 'proposering']_f655
+	preconditions:
+		love['jack', 'mary']
+			cndts:	[59, 198]
+			risks:	[]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		propose['jack', 'mary']
+			cndts:	[114, 115, 116]
+			risks:	[198]
+		has['jack', 'proposering']
+			cndts:	[72, 73, 74, 75, 76, 77, 78, 79, 80, 93, 94, 95]
+			risks:	[129, 66, 67, 68, 130, 131, 198, 138, 75, 76, 77, 139, 140, 147, 84, 85, 86, 148, 149]
+
+
+171
+give_ring['mary', 'bob', 'park', 'proposering']_c28e
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+172
+give_ring['mary', 'bob', 'street', 'proposering']_8ec9
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+173
+give_ring['mary', 'bob', 'shop', 'proposering']_2947
+	preconditions:
+		love['mary', 'bob']
+			cndts:	[60]
+			risks:	[198]
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		propose['mary', 'bob']
+			cndts:	[117, 118, 119]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+174
+give_ring['mary', 'jack', 'park', 'proposering']_5f38
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+175
+give_ring['mary', 'jack', 'street', 'proposering']_67e6
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+176
+give_ring['mary', 'jack', 'shop', 'proposering']_d148
+	preconditions:
+		love['mary', 'jack']
+			cndts:	[61]
+			risks:	[198]
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		propose['mary', 'jack']
+			cndts:	[120, 121, 122]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+177
+give_ring['mary', 'mary', 'park', 'proposering']_e19a
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+178
+give_ring['mary', 'mary', 'street', 'proposering']_2313
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+179
+give_ring['mary', 'mary', 'shop', 'proposering']_c48e
+	preconditions:
+		love['mary', 'mary']
+			cndts:	[62]
+			risks:	[198]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+		propose['mary', 'mary']
+			cndts:	[123, 124, 125]
+			risks:	[198]
+		has['mary', 'proposering']
+			cndts:	[96, 97, 98, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+			risks:	[132, 69, 70, 71, 133, 134, 198, 141, 78, 79, 80, 142, 143, 150, 87, 88, 89, 152, 151]
+
+
+180
+walk['bob', 'park', 'street']_ada2
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+181
+walk['bob', 'park', 'shop']_35fc
+	preconditions:
+		at['bob', 'park']
+			cndts:	[184, 182]
+			risks:	[129, 132, 180, 181, 126]
+
+
+182
+walk['bob', 'street', 'park']_aadc
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+183
+walk['bob', 'street', 'shop']_cd0c
+	preconditions:
+		at['bob', 'street']
+			cndts:	[185, 180, 198]
+			risks:	[130, 133, 182, 183, 127]
+
+
+184
+walk['bob', 'shop', 'park']_727a
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+185
+walk['bob', 'shop', 'street']_77fb
+	preconditions:
+		at['bob', 'shop']
+			cndts:	[181, 183]
+			risks:	[128, 131, 134, 184, 185]
+
+
+186
+walk['jack', 'park', 'street']_62bd
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+187
+walk['jack', 'park', 'shop']_d576
+	preconditions:
+		at['jack', 'park']
+			cndts:	[188, 190]
+			risks:	[135, 138, 141, 186, 187]
+
+
+188
+walk['jack', 'street', 'park']_aa43
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+189
+walk['jack', 'street', 'shop']_24e4
+	preconditions:
+		at['jack', 'street']
+			cndts:	[186, 198, 191]
+			risks:	[136, 139, 142, 188, 189]
+
+
+190
+walk['jack', 'shop', 'park']_0a7c
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+191
+walk['jack', 'shop', 'street']_e0a3
+	preconditions:
+		at['jack', 'shop']
+			cndts:	[187, 189]
+			risks:	[137, 140, 143, 190, 191]
+
+
+192
+walk['mary', 'park', 'street']_d523
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+193
+walk['mary', 'park', 'shop']_5298
+	preconditions:
+		at['mary', 'park']
+			cndts:	[194, 196, 198]
+			risks:	[192, 193, 144, 147, 150]
+
+
+194
+walk['mary', 'street', 'park']_9869
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+195
+walk['mary', 'street', 'shop']_23da
+	preconditions:
+		at['mary', 'street']
+			cndts:	[192, 197]
+			risks:	[194, 195, 145, 148, 151]
+
+
+196
+walk['mary', 'shop', 'park']_d28d
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+197
+walk['mary', 'shop', 'street']_77ea
+	preconditions:
+		at['mary', 'shop']
+			cndts:	[193, 195]
+			risks:	[196, 197, 146, 149, 152]
+
+
+198
+dummy_init[]_bfac
+	preconditions:
+		not-love['bob', 'jack']
+		not-desperate['mary']
+		not-wait_accept['bob', 'bob']
+		not-like['jack', 'jack']
+		not-propose['mary', 'mary']
+		not-love['mary', 'bob']
+		not-has['mary', 'proposering']
+		not-brave['mary']
+		not-place['park']
+		not-like['jack', 'bob']
+		not-propose['jack', 'mary']
+		not-place['street']
+		not-like['bob', 'jack']
+		not-like['mary', 'mary']
+		not-happy['mary']
+		not-happy['jack']
+		not-propose['bob', 'bob']
+		not-propose_accepted['bob', 'mary']
+		not-like['mary', 'jack']
+		not-brave['jack']
+		not-propose_accepted['mary', 'mary']
+		not-propose['bob', 'mary']
+		brave['bob']
+		not-delighted['jack']
+		not-desperate['jack']
+		at['jack', 'street']
+		not-love['mary', 'mary']
+		not-wait_accept['mary', 'mary']
+		at['bob', 'street']
+		not-wait_accept['mary', 'jack']
+		not-propose_accepted['bob', 'bob']
+		not-steal['jack', 'proposering']
+		not-person['bob']
+		love['jack', 'mary']
+		not-has['jack', 'proposering']
+		not-like['jack', 'mary']
+		not-steal['mary', 'proposering']
+		not-propose_accepted['jack', 'bob']
+		not-propose['jack', 'jack']
+		not-delighted['bob']
+		not-wait_accept['jack', 'jack']
+		not-love['jack', 'bob']
+		not-jealousy['mary']
+		not-propose['mary', 'bob']
+		not-wait_accept['jack', 'mary']
+		not-desperate['bob']
+		not-wait_accept['mary', 'bob']
+		not-place['shop']
+		not-propose_accepted['bob', 'jack']
+		not-love['mary', 'jack']
+		not-wait_accept['bob', 'jack']
+		not-propose_accepted['mary', 'jack']
+		not-like['bob', 'bob']
+		not-like['bob', 'mary']
+		like['mary', 'bob']
+		not-happy['bob']
+		love['bob', 'mary']
+		not-propose['mary', 'jack']
+		not-steal['bob', 'proposering']
+		not-jealousy['bob']
+		not-has['bob', 'proposering']
+		at['proposering', 'shop']
+		not-wait_accept['bob', 'mary']
+		not-wait_accept['jack', 'bob']
+		not-propose_accepted['jack', 'mary']
+		not-person['mary']
+		not-propose_accepted['jack', 'jack']
+		not-person['jack']
+		at['mary', 'park']
+		not-propose_accepted['mary', 'bob']
+		not-love['bob', 'bob']
+		not-propose['bob', 'jack']
+		jealousy['jack']
+		not-propose['jack', 'bob']
+		not-love['jack', 'jack']
+		not-delighted['mary']
+
+
+199
+dummy_goal[]_321b
+	preconditions:
+		propose_accepted['bob', 'mary']
+			cndts:	[45, 46, 47, 81, 82, 83]
+			risks:	[198]
+		happy['mary']
+			cndts:	[159, 160, 33, 34, 35, 161, 168, 169, 42, 43, 44, 170, 177, 178, 51, 52, 53, 179, 69, 70, 71, 78, 79, 80, 87, 88, 89]
+			risks:	[198]
 

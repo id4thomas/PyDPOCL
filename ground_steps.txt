@@ -1,361 +1,2246 @@
-fly-0-9596['bob', '747', 'la', 'raleigh']
+sing_for-0-9671['bob', 'bob', 'park']
 	preconditions:
-		at['747', 'la']
-		in['bob', '747']
+		brave['bob']
+		at['bob', 'park']
+		at['bob', 'park']
+		desperate['bob']
+		love['bob', 'bob']
 	effects:
-		at['747', 'raleigh']
-		not-at['747', 'la']
+		delighted['bob']
 
-fly-1-9596['bob', '747', 'raleigh', 'la']
+sing_for-1-9671['bob', 'bob', 'street']
 	preconditions:
-		at['747', 'raleigh']
-		in['bob', '747']
+		brave['bob']
+		at['bob', 'street']
+		at['bob', 'street']
+		desperate['bob']
+		love['bob', 'bob']
 	effects:
-		at['747', 'la']
-		not-at['747', 'raleigh']
+		delighted['bob']
 
-drive-2-b3e5['bob', 'accord', 'la', 'raleigh']
+sing_for-2-9671['bob', 'bob', 'shop']
 	preconditions:
-		in['bob', 'accord']
-		at['accord', 'la']
+		brave['bob']
+		at['bob', 'shop']
+		at['bob', 'shop']
+		desperate['bob']
+		love['bob', 'bob']
 	effects:
-		not-at['accord', 'la']
-		at['accord', 'raleigh']
+		delighted['bob']
 
-drive-3-b3e5['bob', 'accord', 'raleigh', 'la']
+sing_for-3-9671['bob', 'jack', 'park']
 	preconditions:
-		in['bob', 'accord']
-		at['accord', 'raleigh']
+		brave['bob']
+		at['bob', 'park']
+		at['jack', 'park']
+		desperate['bob']
+		love['bob', 'jack']
 	effects:
-		not-at['accord', 'raleigh']
-		at['accord', 'la']
+		delighted['jack']
 
-deplane-4-86e2['bob', '747', 'la']
+sing_for-4-9671['bob', 'jack', 'street']
 	preconditions:
-		in['bob', '747']
-		at['747', 'la']
+		brave['bob']
+		at['bob', 'street']
+		at['jack', 'street']
+		desperate['bob']
+		love['bob', 'jack']
 	effects:
-		at['bob', 'la']
-		not-in['bob', '747']
+		delighted['jack']
 
-deplane-5-86e2['bob', '747', 'raleigh']
+sing_for-5-9671['bob', 'jack', 'shop']
 	preconditions:
-		in['bob', '747']
-		at['747', 'raleigh']
+		brave['bob']
+		at['bob', 'shop']
+		at['jack', 'shop']
+		desperate['bob']
+		love['bob', 'jack']
 	effects:
-		at['bob', 'raleigh']
-		not-in['bob', '747']
+		delighted['jack']
 
-buy-tickets-6-a533['bob']
+sing_for-6-9671['bob', 'mary', 'park']
 	preconditions:
+		brave['bob']
+		at['bob', 'park']
+		at['mary', 'park']
+		desperate['bob']
+		love['bob', 'mary']
 	effects:
-		has-ticket['bob']
+		delighted['mary']
 
-get-in-car-7-92f3['bob', 'accord', 'la']
+sing_for-7-9671['bob', 'mary', 'street']
 	preconditions:
-		at['bob', 'la']
-		at['accord', 'la']
+		brave['bob']
+		at['bob', 'street']
+		at['mary', 'street']
+		desperate['bob']
+		love['bob', 'mary']
 	effects:
-		in['bob', 'accord']
-		not-at['bob', 'la']
+		delighted['mary']
 
-get-in-car-8-92f3['bob', 'accord', 'raleigh']
+sing_for-8-9671['bob', 'mary', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
-		at['accord', 'raleigh']
+		brave['bob']
+		at['bob', 'shop']
+		at['mary', 'shop']
+		desperate['bob']
+		love['bob', 'mary']
 	effects:
-		in['bob', 'accord']
-		not-at['bob', 'raleigh']
+		delighted['mary']
 
-get-out-of-car-9-b929['bob', 'accord', 'la']
+sing_for-9-9671['jack', 'bob', 'park']
 	preconditions:
-		in['bob', 'accord']
-		at['accord', 'la']
+		brave['jack']
+		at['jack', 'park']
+		at['bob', 'park']
+		desperate['jack']
+		love['jack', 'bob']
 	effects:
-		at['bob', 'la']
-		not-in['bob', 'accord']
+		delighted['bob']
 
-get-out-of-car-10-b929['bob', 'accord', 'raleigh']
+sing_for-10-9671['jack', 'bob', 'street']
 	preconditions:
-		in['bob', 'accord']
-		at['accord', 'raleigh']
+		brave['jack']
+		at['jack', 'street']
+		at['bob', 'street']
+		desperate['jack']
+		love['jack', 'bob']
 	effects:
-		at['bob', 'raleigh']
-		not-in['bob', 'accord']
+		delighted['bob']
 
-board-plane-11-9e0c['bob', '747', 'la']
+sing_for-11-9671['jack', 'bob', 'shop']
 	preconditions:
-		has-ticket['bob']
-		at['bob', 'la']
-		at['747', 'la']
+		brave['jack']
+		at['jack', 'shop']
+		at['bob', 'shop']
+		desperate['jack']
+		love['jack', 'bob']
 	effects:
-		not-at['bob', 'la']
-		not-has-ticket['bob']
-		in['bob', '747']
+		delighted['bob']
 
-board-plane-12-9e0c['bob', '747', 'raleigh']
+sing_for-12-9671['jack', 'jack', 'park']
 	preconditions:
-		has-ticket['bob']
-		at['bob', 'raleigh']
-		at['747', 'raleigh']
+		brave['jack']
+		at['jack', 'park']
+		at['jack', 'park']
+		desperate['jack']
+		love['jack', 'jack']
 	effects:
-		not-at['bob', 'raleigh']
-		not-has-ticket['bob']
-		in['bob', '747']
+		delighted['jack']
 
-None-13-a5b4[]
+sing_for-13-9671['jack', 'jack', 'street']
 	preconditions:
+		brave['jack']
+		at['jack', 'street']
+		at['jack', 'street']
+		desperate['jack']
+		love['jack', 'jack']
 	effects:
+		delighted['jack']
 
-None-14-9e07[]
+sing_for-14-9671['jack', 'jack', 'shop']
 	preconditions:
-		at['bob', 'la']
+		brave['jack']
+		at['jack', 'shop']
+		at['jack', 'shop']
+		desperate['jack']
+		love['jack', 'jack']
 	effects:
+		delighted['jack']
 
-travel-15-b27b['bob', 'la']
+sing_for-15-9671['jack', 'mary', 'park']
 	preconditions:
+		brave['jack']
+		at['jack', 'park']
+		at['mary', 'park']
+		desperate['jack']
+		love['jack', 'mary']
 	effects:
-		at['bob', 'la']
+		delighted['mary']
 
-None-16-b594[]
+sing_for-16-9671['jack', 'mary', 'street']
 	preconditions:
+		brave['jack']
+		at['jack', 'street']
+		at['mary', 'street']
+		desperate['jack']
+		love['jack', 'mary']
 	effects:
+		delighted['mary']
 
-None-17-bb94[]
+sing_for-17-9671['jack', 'mary', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
+		brave['jack']
+		at['jack', 'shop']
+		at['mary', 'shop']
+		desperate['jack']
+		love['jack', 'mary']
 	effects:
+		delighted['mary']
 
-travel-18-99d7['bob', 'raleigh']
+sing_for-18-9671['mary', 'bob', 'park']
 	preconditions:
+		brave['mary']
+		at['mary', 'park']
+		at['bob', 'park']
+		desperate['mary']
+		love['mary', 'bob']
 	effects:
-		at['bob', 'raleigh']
+		delighted['bob']
 
-None-19-8ca5[]
+sing_for-19-9671['mary', 'bob', 'street']
 	preconditions:
+		brave['mary']
+		at['mary', 'street']
+		at['bob', 'street']
+		desperate['mary']
+		love['mary', 'bob']
 	effects:
+		delighted['bob']
 
-None-20-ad4c[]
+sing_for-20-9671['mary', 'bob', 'shop']
 	preconditions:
-		at['bob', 'la']
+		brave['mary']
+		at['mary', 'shop']
+		at['bob', 'shop']
+		desperate['mary']
+		love['mary', 'bob']
 	effects:
+		delighted['bob']
 
-travel-21-aa27['bob', 'la']
+sing_for-21-9671['mary', 'jack', 'park']
 	preconditions:
+		brave['mary']
+		at['mary', 'park']
+		at['jack', 'park']
+		desperate['mary']
+		love['mary', 'jack']
 	effects:
-		at['bob', 'la']
+		delighted['jack']
 
-None-22-84d9[]
+sing_for-22-9671['mary', 'jack', 'street']
 	preconditions:
+		brave['mary']
+		at['mary', 'street']
+		at['jack', 'street']
+		desperate['mary']
+		love['mary', 'jack']
 	effects:
+		delighted['jack']
 
-None-23-af46[]
+sing_for-23-9671['mary', 'jack', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
+		brave['mary']
+		at['mary', 'shop']
+		at['jack', 'shop']
+		desperate['mary']
+		love['mary', 'jack']
 	effects:
+		delighted['jack']
 
-travel-24-8177['bob', 'raleigh']
+sing_for-24-9671['mary', 'mary', 'park']
 	preconditions:
+		brave['mary']
+		at['mary', 'park']
+		at['mary', 'park']
+		desperate['mary']
+		love['mary', 'mary']
 	effects:
-		at['bob', 'raleigh']
+		delighted['mary']
 
-None-25-9ce8[]
+sing_for-25-9671['mary', 'mary', 'street']
 	preconditions:
+		brave['mary']
+		at['mary', 'street']
+		at['mary', 'street']
+		desperate['mary']
+		love['mary', 'mary']
 	effects:
-		at['bob', 'raleigh']
+		delighted['mary']
 
-None-26-b5ce[]
+sing_for-26-9671['mary', 'mary', 'shop']
 	preconditions:
-		at['bob', 'la']
-		not-at['bob', 'raleigh']
+		brave['mary']
+		at['mary', 'shop']
+		at['mary', 'shop']
+		desperate['mary']
+		love['mary', 'mary']
 	effects:
+		delighted['mary']
 
-travel-by-plane-27-87d4['bob', 'raleigh', 'la']
+accept_propose-27-93e8['bob', 'bob', 'park']
 	preconditions:
-		at['bob', 'raleigh']
+		love['bob', 'bob']
+		propose['bob', 'bob']
+		at['bob', 'park']
+		love['bob', 'bob']
+		at['bob', 'park']
+		desperate['bob']
+		delighted['bob']
 	effects:
-		at['bob', 'la']
-		not-at['bob', 'raleigh']
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'bob']
 
-None-28-bc15[]
+accept_propose-28-93e8['bob', 'bob', 'street']
 	preconditions:
+		love['bob', 'bob']
+		propose['bob', 'bob']
+		at['bob', 'street']
+		love['bob', 'bob']
+		at['bob', 'street']
+		desperate['bob']
+		delighted['bob']
 	effects:
-		at['bob', 'la']
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'bob']
 
-None-29-8428[]
+accept_propose-29-93e8['bob', 'bob', 'shop']
 	preconditions:
-		not-at['bob', 'la']
-		at['bob', 'raleigh']
+		love['bob', 'bob']
+		propose['bob', 'bob']
+		at['bob', 'shop']
+		love['bob', 'bob']
+		at['bob', 'shop']
+		desperate['bob']
+		delighted['bob']
 	effects:
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'bob']
 
-travel-by-plane-30-91c4['bob', 'la', 'raleigh']
+accept_propose-30-93e8['bob', 'jack', 'park']
 	preconditions:
-		at['bob', 'la']
+		love['jack', 'bob']
+		propose['jack', 'bob']
+		at['bob', 'park']
+		love['bob', 'jack']
+		at['jack', 'park']
+		desperate['jack']
+		delighted['bob']
 	effects:
-		at['bob', 'raleigh']
-		not-at['bob', 'la']
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'bob']
 
-None-31-8e3c[]
+accept_propose-31-93e8['bob', 'jack', 'street']
 	preconditions:
+		love['jack', 'bob']
+		propose['jack', 'bob']
+		at['bob', 'street']
+		love['bob', 'jack']
+		at['jack', 'street']
+		desperate['jack']
+		delighted['bob']
 	effects:
-		at['bob', 'la']
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'bob']
 
-None-32-809e[]
+accept_propose-32-93e8['bob', 'jack', 'shop']
 	preconditions:
-		not-at['bob', 'la']
-		at['bob', 'raleigh']
+		love['jack', 'bob']
+		propose['jack', 'bob']
+		at['bob', 'shop']
+		love['bob', 'jack']
+		at['jack', 'shop']
+		desperate['jack']
+		delighted['bob']
 	effects:
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'bob']
 
-travel-by-car-33-9137['bob', 'la', 'raleigh']
+accept_propose-33-93e8['bob', 'mary', 'park']
 	preconditions:
-		at['bob', 'la']
+		love['mary', 'bob']
+		propose['mary', 'bob']
+		at['bob', 'park']
+		love['bob', 'mary']
+		at['mary', 'park']
+		desperate['mary']
+		delighted['bob']
 	effects:
-		not-at['bob', 'la']
-		at['bob', 'raleigh']
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'bob']
 
-None-34-8867[]
+accept_propose-34-93e8['bob', 'mary', 'street']
 	preconditions:
+		love['mary', 'bob']
+		propose['mary', 'bob']
+		at['bob', 'street']
+		love['bob', 'mary']
+		at['mary', 'street']
+		desperate['mary']
+		delighted['bob']
 	effects:
-		at['bob', 'raleigh']
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'bob']
 
-None-35-a1b4[]
+accept_propose-35-93e8['bob', 'mary', 'shop']
 	preconditions:
-		not-at['bob', 'raleigh']
-		at['bob', 'la']
+		love['mary', 'bob']
+		propose['mary', 'bob']
+		at['bob', 'shop']
+		love['bob', 'mary']
+		at['mary', 'shop']
+		desperate['mary']
+		delighted['bob']
 	effects:
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'bob']
 
-travel-by-car-36-8e42['bob', 'raleigh', 'la']
+accept_propose-36-93e8['jack', 'bob', 'park']
 	preconditions:
-		at['bob', 'raleigh']
+		love['bob', 'jack']
+		propose['bob', 'jack']
+		at['jack', 'park']
+		love['jack', 'bob']
+		at['bob', 'park']
+		desperate['bob']
+		delighted['jack']
 	effects:
-		not-at['bob', 'raleigh']
-		at['bob', 'la']
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'jack']
 
-None-37-b710[]
+accept_propose-37-93e8['jack', 'bob', 'street']
 	preconditions:
+		love['bob', 'jack']
+		propose['bob', 'jack']
+		at['jack', 'street']
+		love['jack', 'bob']
+		at['bob', 'street']
+		desperate['bob']
+		delighted['jack']
 	effects:
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'jack']
 
-None-38-bb0b[]
+accept_propose-38-93e8['jack', 'bob', 'shop']
 	preconditions:
-		at['bob', 'la']
+		love['bob', 'jack']
+		propose['bob', 'jack']
+		at['jack', 'shop']
+		love['jack', 'bob']
+		at['bob', 'shop']
+		desperate['bob']
+		delighted['jack']
 	effects:
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'jack']
 
-travel-39-a39e['bob', 'la']
+accept_propose-39-93e8['jack', 'jack', 'park']
 	preconditions:
+		love['jack', 'jack']
+		propose['jack', 'jack']
+		at['jack', 'park']
+		love['jack', 'jack']
+		at['jack', 'park']
+		desperate['jack']
+		delighted['jack']
 	effects:
-		at['bob', 'la']
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'jack']
 
-None-40-bcb0[]
+accept_propose-40-93e8['jack', 'jack', 'street']
 	preconditions:
+		love['jack', 'jack']
+		propose['jack', 'jack']
+		at['jack', 'street']
+		love['jack', 'jack']
+		at['jack', 'street']
+		desperate['jack']
+		delighted['jack']
 	effects:
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'jack']
 
-None-41-b51e[]
+accept_propose-41-93e8['jack', 'jack', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
+		love['jack', 'jack']
+		propose['jack', 'jack']
+		at['jack', 'shop']
+		love['jack', 'jack']
+		at['jack', 'shop']
+		desperate['jack']
+		delighted['jack']
 	effects:
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'jack']
 
-travel-42-8173['bob', 'raleigh']
+accept_propose-42-93e8['jack', 'mary', 'park']
 	preconditions:
+		love['mary', 'jack']
+		propose['mary', 'jack']
+		at['jack', 'park']
+		love['jack', 'mary']
+		at['mary', 'park']
+		desperate['mary']
+		delighted['jack']
 	effects:
-		at['bob', 'raleigh']
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'jack']
 
-None-43-a30d[]
+accept_propose-43-93e8['jack', 'mary', 'street']
 	preconditions:
+		love['mary', 'jack']
+		propose['mary', 'jack']
+		at['jack', 'street']
+		love['jack', 'mary']
+		at['mary', 'street']
+		desperate['mary']
+		delighted['jack']
 	effects:
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'jack']
 
-None-44-b481[]
+accept_propose-44-93e8['jack', 'mary', 'shop']
 	preconditions:
-		at['bob', 'la']
+		love['mary', 'jack']
+		propose['mary', 'jack']
+		at['jack', 'shop']
+		love['jack', 'mary']
+		at['mary', 'shop']
+		desperate['mary']
+		delighted['jack']
 	effects:
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'jack']
 
-travel-45-8c57['bob', 'la']
+accept_propose-45-93e8['mary', 'bob', 'park']
 	preconditions:
+		love['bob', 'mary']
+		propose['bob', 'mary']
+		at['mary', 'park']
+		love['mary', 'bob']
+		at['bob', 'park']
+		desperate['bob']
+		delighted['mary']
 	effects:
-		at['bob', 'la']
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'mary']
 
-None-46-9ddc[]
+accept_propose-46-93e8['mary', 'bob', 'street']
 	preconditions:
+		love['bob', 'mary']
+		propose['bob', 'mary']
+		at['mary', 'street']
+		love['mary', 'bob']
+		at['bob', 'street']
+		desperate['bob']
+		delighted['mary']
 	effects:
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'mary']
 
-None-47-8069[]
+accept_propose-47-93e8['mary', 'bob', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
+		love['bob', 'mary']
+		propose['bob', 'mary']
+		at['mary', 'shop']
+		love['mary', 'bob']
+		at['bob', 'shop']
+		desperate['bob']
+		delighted['mary']
 	effects:
+		happy['bob']
+		not-desperate['bob']
+		propose_accepted['bob', 'mary']
 
-travel-48-ad73['bob', 'raleigh']
+accept_propose-48-93e8['mary', 'jack', 'park']
 	preconditions:
+		love['jack', 'mary']
+		propose['jack', 'mary']
+		at['mary', 'park']
+		love['mary', 'jack']
+		at['jack', 'park']
+		desperate['jack']
+		delighted['mary']
 	effects:
-		at['bob', 'raleigh']
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'mary']
 
-None-49-b1f3[]
+accept_propose-49-93e8['mary', 'jack', 'street']
 	preconditions:
+		love['jack', 'mary']
+		propose['jack', 'mary']
+		at['mary', 'street']
+		love['mary', 'jack']
+		at['jack', 'street']
+		desperate['jack']
+		delighted['mary']
 	effects:
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'mary']
 
-None-50-937e[]
+accept_propose-50-93e8['mary', 'jack', 'shop']
 	preconditions:
-		at['bob', 'la']
+		love['jack', 'mary']
+		propose['jack', 'mary']
+		at['mary', 'shop']
+		love['mary', 'jack']
+		at['jack', 'shop']
+		desperate['jack']
+		delighted['mary']
 	effects:
+		happy['jack']
+		not-desperate['jack']
+		propose_accepted['jack', 'mary']
 
-travel-51-a476['bob', 'la']
+accept_propose-51-93e8['mary', 'mary', 'park']
 	preconditions:
+		love['mary', 'mary']
+		propose['mary', 'mary']
+		at['mary', 'park']
+		love['mary', 'mary']
+		at['mary', 'park']
+		desperate['mary']
+		delighted['mary']
 	effects:
-		at['bob', 'la']
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'mary']
 
-None-52-934a[]
+accept_propose-52-93e8['mary', 'mary', 'street']
 	preconditions:
+		love['mary', 'mary']
+		propose['mary', 'mary']
+		at['mary', 'street']
+		love['mary', 'mary']
+		at['mary', 'street']
+		desperate['mary']
+		delighted['mary']
 	effects:
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'mary']
 
-None-53-a857[]
+accept_propose-53-93e8['mary', 'mary', 'shop']
 	preconditions:
-		at['bob', 'raleigh']
+		love['mary', 'mary']
+		propose['mary', 'mary']
+		at['mary', 'shop']
+		love['mary', 'mary']
+		at['mary', 'shop']
+		desperate['mary']
+		delighted['mary']
 	effects:
+		happy['mary']
+		not-desperate['mary']
+		propose_accepted['mary', 'mary']
 
-travel-54-975c['bob', 'raleigh']
+fall_in_love-54-a8c5['bob', 'bob']
 	preconditions:
+		propose['bob', 'bob']
+		like['bob', 'bob']
 	effects:
-		at['bob', 'raleigh']
+		love['bob', 'bob']
 
-None-55-9353[]
+fall_in_love-55-a8c5['bob', 'jack']
 	preconditions:
+		propose['jack', 'bob']
+		like['bob', 'jack']
 	effects:
+		love['bob', 'jack']
 
-None-56-904d[]
+fall_in_love-56-a8c5['bob', 'mary']
 	preconditions:
-		at['bob', 'raleigh']
+		propose['mary', 'bob']
+		like['bob', 'mary']
 	effects:
+		love['bob', 'mary']
 
-travel-57-8a20['bob', 'raleigh']
+fall_in_love-57-a8c5['jack', 'bob']
 	preconditions:
+		propose['bob', 'jack']
+		like['jack', 'bob']
 	effects:
-		at['bob', 'raleigh']
+		love['jack', 'bob']
 
-None-58-bdf1[]
+fall_in_love-58-a8c5['jack', 'jack']
 	preconditions:
+		propose['jack', 'jack']
+		like['jack', 'jack']
 	effects:
+		love['jack', 'jack']
 
-None-59-a95c[]
+fall_in_love-59-a8c5['jack', 'mary']
 	preconditions:
-		at['bob', 'la']
+		propose['mary', 'jack']
+		like['jack', 'mary']
 	effects:
+		love['jack', 'mary']
 
-travel-60-9368['bob', 'la']
+fall_in_love-60-a8c5['mary', 'bob']
 	preconditions:
+		propose['bob', 'mary']
+		like['mary', 'bob']
 	effects:
-		at['bob', 'la']
+		love['mary', 'bob']
 
-dummy_init-61-b68f[]
+fall_in_love-61-a8c5['mary', 'jack']
+	preconditions:
+		propose['jack', 'mary']
+		like['mary', 'jack']
+	effects:
+		love['mary', 'jack']
+
+fall_in_love-62-a8c5['mary', 'mary']
+	preconditions:
+		propose['mary', 'mary']
+		like['mary', 'mary']
+	effects:
+		love['mary', 'mary']
+
+accept_ring-63-9c77['bob', 'bob', 'park', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'park']
+		wait_accept['bob', 'bob']
+		love['bob', 'bob']
+		has['bob', 'proposering']
+		at['bob', 'park']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-64-9c77['bob', 'bob', 'street', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'street']
+		wait_accept['bob', 'bob']
+		love['bob', 'bob']
+		has['bob', 'proposering']
+		at['bob', 'street']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-65-9c77['bob', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'shop']
+		wait_accept['bob', 'bob']
+		love['bob', 'bob']
+		has['bob', 'proposering']
+		at['bob', 'shop']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-66-9c77['bob', 'jack', 'park', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['bob', 'park']
+		wait_accept['jack', 'bob']
+		love['jack', 'bob']
+		has['jack', 'proposering']
+		at['jack', 'park']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-67-9c77['bob', 'jack', 'street', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['bob', 'street']
+		wait_accept['jack', 'bob']
+		love['jack', 'bob']
+		has['jack', 'proposering']
+		at['jack', 'street']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-68-9c77['bob', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['bob', 'shop']
+		wait_accept['jack', 'bob']
+		love['jack', 'bob']
+		has['jack', 'proposering']
+		at['jack', 'shop']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-69-9c77['bob', 'mary', 'park', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['bob', 'park']
+		wait_accept['mary', 'bob']
+		love['mary', 'bob']
+		has['mary', 'proposering']
+		at['mary', 'park']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-70-9c77['bob', 'mary', 'street', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['bob', 'street']
+		wait_accept['mary', 'bob']
+		love['mary', 'bob']
+		has['mary', 'proposering']
+		at['mary', 'street']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-71-9c77['bob', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['bob', 'shop']
+		wait_accept['mary', 'bob']
+		love['mary', 'bob']
+		has['mary', 'proposering']
+		at['mary', 'shop']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'bob']
+		has['bob', 'proposering']
+
+accept_ring-72-9c77['jack', 'bob', 'park', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['jack', 'park']
+		wait_accept['bob', 'jack']
+		love['bob', 'jack']
+		has['bob', 'proposering']
+		at['bob', 'park']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-73-9c77['jack', 'bob', 'street', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['jack', 'street']
+		wait_accept['bob', 'jack']
+		love['bob', 'jack']
+		has['bob', 'proposering']
+		at['bob', 'street']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-74-9c77['jack', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['jack', 'shop']
+		wait_accept['bob', 'jack']
+		love['bob', 'jack']
+		has['bob', 'proposering']
+		at['bob', 'shop']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-75-9c77['jack', 'jack', 'park', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'park']
+		wait_accept['jack', 'jack']
+		love['jack', 'jack']
+		has['jack', 'proposering']
+		at['jack', 'park']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-76-9c77['jack', 'jack', 'street', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'street']
+		wait_accept['jack', 'jack']
+		love['jack', 'jack']
+		has['jack', 'proposering']
+		at['jack', 'street']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-77-9c77['jack', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'shop']
+		wait_accept['jack', 'jack']
+		love['jack', 'jack']
+		has['jack', 'proposering']
+		at['jack', 'shop']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-78-9c77['jack', 'mary', 'park', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['jack', 'park']
+		wait_accept['mary', 'jack']
+		love['mary', 'jack']
+		has['mary', 'proposering']
+		at['mary', 'park']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-79-9c77['jack', 'mary', 'street', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['jack', 'street']
+		wait_accept['mary', 'jack']
+		love['mary', 'jack']
+		has['mary', 'proposering']
+		at['mary', 'street']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-80-9c77['jack', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['jack', 'shop']
+		wait_accept['mary', 'jack']
+		love['mary', 'jack']
+		has['mary', 'proposering']
+		at['mary', 'shop']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'jack']
+		has['jack', 'proposering']
+
+accept_ring-81-9c77['mary', 'bob', 'park', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['mary', 'park']
+		wait_accept['bob', 'mary']
+		love['bob', 'mary']
+		has['bob', 'proposering']
+		at['bob', 'park']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-82-9c77['mary', 'bob', 'street', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['mary', 'street']
+		wait_accept['bob', 'mary']
+		love['bob', 'mary']
+		has['bob', 'proposering']
+		at['bob', 'street']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-83-9c77['mary', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['mary', 'shop']
+		wait_accept['bob', 'mary']
+		love['bob', 'mary']
+		has['bob', 'proposering']
+		at['bob', 'shop']
+	effects:
+		not-has['bob', 'proposering']
+		happy['bob']
+		propose_accepted['bob', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-84-9c77['mary', 'jack', 'park', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['mary', 'park']
+		wait_accept['jack', 'mary']
+		love['jack', 'mary']
+		has['jack', 'proposering']
+		at['jack', 'park']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-85-9c77['mary', 'jack', 'street', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['mary', 'street']
+		wait_accept['jack', 'mary']
+		love['jack', 'mary']
+		has['jack', 'proposering']
+		at['jack', 'street']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-86-9c77['mary', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['mary', 'shop']
+		wait_accept['jack', 'mary']
+		love['jack', 'mary']
+		has['jack', 'proposering']
+		at['jack', 'shop']
+	effects:
+		not-has['jack', 'proposering']
+		happy['jack']
+		propose_accepted['jack', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-87-9c77['mary', 'mary', 'park', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'park']
+		wait_accept['mary', 'mary']
+		love['mary', 'mary']
+		has['mary', 'proposering']
+		at['mary', 'park']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-88-9c77['mary', 'mary', 'street', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'street']
+		wait_accept['mary', 'mary']
+		love['mary', 'mary']
+		has['mary', 'proposering']
+		at['mary', 'street']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'mary']
+		has['mary', 'proposering']
+
+accept_ring-89-9c77['mary', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'shop']
+		wait_accept['mary', 'mary']
+		love['mary', 'mary']
+		has['mary', 'proposering']
+		at['mary', 'shop']
+	effects:
+		not-has['mary', 'proposering']
+		happy['mary']
+		propose_accepted['mary', 'mary']
+		has['mary', 'proposering']
+
+buy_ring-90-a471['bob', 'proposering', 'park']
+	preconditions:
+		at['proposering', 'park']
+		at['bob', 'park']
+		brave['bob']
+	effects:
+		not-at['proposering', 'park']
+		has['bob', 'proposering']
+
+buy_ring-91-a471['bob', 'proposering', 'street']
+	preconditions:
+		at['proposering', 'street']
+		at['bob', 'street']
+		brave['bob']
+	effects:
+		not-at['proposering', 'street']
+		has['bob', 'proposering']
+
+buy_ring-92-a471['bob', 'proposering', 'shop']
+	preconditions:
+		at['proposering', 'shop']
+		at['bob', 'shop']
+		brave['bob']
+	effects:
+		not-at['proposering', 'shop']
+		has['bob', 'proposering']
+
+buy_ring-93-a471['jack', 'proposering', 'park']
+	preconditions:
+		at['proposering', 'park']
+		at['jack', 'park']
+		brave['jack']
+	effects:
+		not-at['proposering', 'park']
+		has['jack', 'proposering']
+
+buy_ring-94-a471['jack', 'proposering', 'street']
+	preconditions:
+		at['proposering', 'street']
+		at['jack', 'street']
+		brave['jack']
+	effects:
+		not-at['proposering', 'street']
+		has['jack', 'proposering']
+
+buy_ring-95-a471['jack', 'proposering', 'shop']
+	preconditions:
+		at['proposering', 'shop']
+		at['jack', 'shop']
+		brave['jack']
+	effects:
+		not-at['proposering', 'shop']
+		has['jack', 'proposering']
+
+buy_ring-96-a471['mary', 'proposering', 'park']
+	preconditions:
+		at['proposering', 'park']
+		at['mary', 'park']
+		brave['mary']
+	effects:
+		not-at['proposering', 'park']
+		has['mary', 'proposering']
+
+buy_ring-97-a471['mary', 'proposering', 'street']
+	preconditions:
+		at['proposering', 'street']
+		at['mary', 'street']
+		brave['mary']
+	effects:
+		not-at['proposering', 'street']
+		has['mary', 'proposering']
+
+buy_ring-98-a471['mary', 'proposering', 'shop']
+	preconditions:
+		at['proposering', 'shop']
+		at['mary', 'shop']
+		brave['mary']
+	effects:
+		not-at['proposering', 'shop']
+		has['mary', 'proposering']
+
+propose-99-ba6e['bob', 'bob', 'park']
+	preconditions:
+		at['bob', 'park']
+		brave['bob']
+		at['bob', 'park']
+		love['bob', 'bob']
+	effects:
+		propose['bob', 'bob']
+
+propose-100-ba6e['bob', 'bob', 'street']
+	preconditions:
+		at['bob', 'street']
+		brave['bob']
+		at['bob', 'street']
+		love['bob', 'bob']
+	effects:
+		propose['bob', 'bob']
+
+propose-101-ba6e['bob', 'bob', 'shop']
+	preconditions:
+		at['bob', 'shop']
+		brave['bob']
+		at['bob', 'shop']
+		love['bob', 'bob']
+	effects:
+		propose['bob', 'bob']
+
+propose-102-ba6e['bob', 'jack', 'park']
+	preconditions:
+		at['bob', 'park']
+		brave['bob']
+		at['jack', 'park']
+		love['bob', 'jack']
+	effects:
+		propose['bob', 'jack']
+
+propose-103-ba6e['bob', 'jack', 'street']
+	preconditions:
+		at['bob', 'street']
+		brave['bob']
+		at['jack', 'street']
+		love['bob', 'jack']
+	effects:
+		propose['bob', 'jack']
+
+propose-104-ba6e['bob', 'jack', 'shop']
+	preconditions:
+		at['bob', 'shop']
+		brave['bob']
+		at['jack', 'shop']
+		love['bob', 'jack']
+	effects:
+		propose['bob', 'jack']
+
+propose-105-ba6e['bob', 'mary', 'park']
+	preconditions:
+		at['bob', 'park']
+		brave['bob']
+		at['mary', 'park']
+		love['bob', 'mary']
+	effects:
+		propose['bob', 'mary']
+
+propose-106-ba6e['bob', 'mary', 'street']
+	preconditions:
+		at['bob', 'street']
+		brave['bob']
+		at['mary', 'street']
+		love['bob', 'mary']
+	effects:
+		propose['bob', 'mary']
+
+propose-107-ba6e['bob', 'mary', 'shop']
+	preconditions:
+		at['bob', 'shop']
+		brave['bob']
+		at['mary', 'shop']
+		love['bob', 'mary']
+	effects:
+		propose['bob', 'mary']
+
+propose-108-ba6e['jack', 'bob', 'park']
+	preconditions:
+		at['jack', 'park']
+		brave['jack']
+		at['bob', 'park']
+		love['jack', 'bob']
+	effects:
+		propose['jack', 'bob']
+
+propose-109-ba6e['jack', 'bob', 'street']
+	preconditions:
+		at['jack', 'street']
+		brave['jack']
+		at['bob', 'street']
+		love['jack', 'bob']
+	effects:
+		propose['jack', 'bob']
+
+propose-110-ba6e['jack', 'bob', 'shop']
+	preconditions:
+		at['jack', 'shop']
+		brave['jack']
+		at['bob', 'shop']
+		love['jack', 'bob']
+	effects:
+		propose['jack', 'bob']
+
+propose-111-ba6e['jack', 'jack', 'park']
+	preconditions:
+		at['jack', 'park']
+		brave['jack']
+		at['jack', 'park']
+		love['jack', 'jack']
+	effects:
+		propose['jack', 'jack']
+
+propose-112-ba6e['jack', 'jack', 'street']
+	preconditions:
+		at['jack', 'street']
+		brave['jack']
+		at['jack', 'street']
+		love['jack', 'jack']
+	effects:
+		propose['jack', 'jack']
+
+propose-113-ba6e['jack', 'jack', 'shop']
+	preconditions:
+		at['jack', 'shop']
+		brave['jack']
+		at['jack', 'shop']
+		love['jack', 'jack']
+	effects:
+		propose['jack', 'jack']
+
+propose-114-ba6e['jack', 'mary', 'park']
+	preconditions:
+		at['jack', 'park']
+		brave['jack']
+		at['mary', 'park']
+		love['jack', 'mary']
+	effects:
+		propose['jack', 'mary']
+
+propose-115-ba6e['jack', 'mary', 'street']
+	preconditions:
+		at['jack', 'street']
+		brave['jack']
+		at['mary', 'street']
+		love['jack', 'mary']
+	effects:
+		propose['jack', 'mary']
+
+propose-116-ba6e['jack', 'mary', 'shop']
+	preconditions:
+		at['jack', 'shop']
+		brave['jack']
+		at['mary', 'shop']
+		love['jack', 'mary']
+	effects:
+		propose['jack', 'mary']
+
+propose-117-ba6e['mary', 'bob', 'park']
+	preconditions:
+		at['mary', 'park']
+		brave['mary']
+		at['bob', 'park']
+		love['mary', 'bob']
+	effects:
+		propose['mary', 'bob']
+
+propose-118-ba6e['mary', 'bob', 'street']
+	preconditions:
+		at['mary', 'street']
+		brave['mary']
+		at['bob', 'street']
+		love['mary', 'bob']
+	effects:
+		propose['mary', 'bob']
+
+propose-119-ba6e['mary', 'bob', 'shop']
+	preconditions:
+		at['mary', 'shop']
+		brave['mary']
+		at['bob', 'shop']
+		love['mary', 'bob']
+	effects:
+		propose['mary', 'bob']
+
+propose-120-ba6e['mary', 'jack', 'park']
+	preconditions:
+		at['mary', 'park']
+		brave['mary']
+		at['jack', 'park']
+		love['mary', 'jack']
+	effects:
+		propose['mary', 'jack']
+
+propose-121-ba6e['mary', 'jack', 'street']
+	preconditions:
+		at['mary', 'street']
+		brave['mary']
+		at['jack', 'street']
+		love['mary', 'jack']
+	effects:
+		propose['mary', 'jack']
+
+propose-122-ba6e['mary', 'jack', 'shop']
+	preconditions:
+		at['mary', 'shop']
+		brave['mary']
+		at['jack', 'shop']
+		love['mary', 'jack']
+	effects:
+		propose['mary', 'jack']
+
+propose-123-ba6e['mary', 'mary', 'park']
+	preconditions:
+		at['mary', 'park']
+		brave['mary']
+		at['mary', 'park']
+		love['mary', 'mary']
+	effects:
+		propose['mary', 'mary']
+
+propose-124-ba6e['mary', 'mary', 'street']
+	preconditions:
+		at['mary', 'street']
+		brave['mary']
+		at['mary', 'street']
+		love['mary', 'mary']
+	effects:
+		propose['mary', 'mary']
+
+propose-125-ba6e['mary', 'mary', 'shop']
+	preconditions:
+		at['mary', 'shop']
+		brave['mary']
+		at['mary', 'shop']
+		love['mary', 'mary']
+	effects:
+		propose['mary', 'mary']
+
+steal-126-a9e9['bob', 'bob', 'park', 'proposering']
+	preconditions:
+		at['bob', 'park']
+		has['bob', 'proposering']
+		jealousy['bob']
+		at['bob', 'park']
+	effects:
+		not-at['bob', 'park']
+		steal['bob', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-127-a9e9['bob', 'bob', 'street', 'proposering']
+	preconditions:
+		at['bob', 'street']
+		has['bob', 'proposering']
+		jealousy['bob']
+		at['bob', 'street']
+	effects:
+		not-at['bob', 'street']
+		steal['bob', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-128-a9e9['bob', 'bob', 'shop', 'proposering']
+	preconditions:
+		at['bob', 'shop']
+		has['bob', 'proposering']
+		jealousy['bob']
+		at['bob', 'shop']
+	effects:
+		not-at['bob', 'shop']
+		steal['bob', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-129-a9e9['bob', 'jack', 'park', 'proposering']
+	preconditions:
+		at['jack', 'park']
+		has['jack', 'proposering']
+		jealousy['bob']
+		at['bob', 'park']
+	effects:
+		not-at['bob', 'park']
+		steal['bob', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-130-a9e9['bob', 'jack', 'street', 'proposering']
+	preconditions:
+		at['jack', 'street']
+		has['jack', 'proposering']
+		jealousy['bob']
+		at['bob', 'street']
+	effects:
+		not-at['bob', 'street']
+		steal['bob', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-131-a9e9['bob', 'jack', 'shop', 'proposering']
+	preconditions:
+		at['jack', 'shop']
+		has['jack', 'proposering']
+		jealousy['bob']
+		at['bob', 'shop']
+	effects:
+		not-at['bob', 'shop']
+		steal['bob', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-132-a9e9['bob', 'mary', 'park', 'proposering']
+	preconditions:
+		at['mary', 'park']
+		has['mary', 'proposering']
+		jealousy['bob']
+		at['bob', 'park']
+	effects:
+		not-at['bob', 'park']
+		steal['bob', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-133-a9e9['bob', 'mary', 'street', 'proposering']
+	preconditions:
+		at['mary', 'street']
+		has['mary', 'proposering']
+		jealousy['bob']
+		at['bob', 'street']
+	effects:
+		not-at['bob', 'street']
+		steal['bob', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-134-a9e9['bob', 'mary', 'shop', 'proposering']
+	preconditions:
+		at['mary', 'shop']
+		has['mary', 'proposering']
+		jealousy['bob']
+		at['bob', 'shop']
+	effects:
+		not-at['bob', 'shop']
+		steal['bob', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-135-a9e9['jack', 'bob', 'park', 'proposering']
+	preconditions:
+		at['bob', 'park']
+		has['bob', 'proposering']
+		jealousy['jack']
+		at['jack', 'park']
+	effects:
+		not-at['jack', 'park']
+		steal['jack', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-136-a9e9['jack', 'bob', 'street', 'proposering']
+	preconditions:
+		at['bob', 'street']
+		has['bob', 'proposering']
+		jealousy['jack']
+		at['jack', 'street']
+	effects:
+		not-at['jack', 'street']
+		steal['jack', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-137-a9e9['jack', 'bob', 'shop', 'proposering']
+	preconditions:
+		at['bob', 'shop']
+		has['bob', 'proposering']
+		jealousy['jack']
+		at['jack', 'shop']
+	effects:
+		not-at['jack', 'shop']
+		steal['jack', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-138-a9e9['jack', 'jack', 'park', 'proposering']
+	preconditions:
+		at['jack', 'park']
+		has['jack', 'proposering']
+		jealousy['jack']
+		at['jack', 'park']
+	effects:
+		not-at['jack', 'park']
+		steal['jack', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-139-a9e9['jack', 'jack', 'street', 'proposering']
+	preconditions:
+		at['jack', 'street']
+		has['jack', 'proposering']
+		jealousy['jack']
+		at['jack', 'street']
+	effects:
+		not-at['jack', 'street']
+		steal['jack', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-140-a9e9['jack', 'jack', 'shop', 'proposering']
+	preconditions:
+		at['jack', 'shop']
+		has['jack', 'proposering']
+		jealousy['jack']
+		at['jack', 'shop']
+	effects:
+		not-at['jack', 'shop']
+		steal['jack', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-141-a9e9['jack', 'mary', 'park', 'proposering']
+	preconditions:
+		at['mary', 'park']
+		has['mary', 'proposering']
+		jealousy['jack']
+		at['jack', 'park']
+	effects:
+		not-at['jack', 'park']
+		steal['jack', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-142-a9e9['jack', 'mary', 'street', 'proposering']
+	preconditions:
+		at['mary', 'street']
+		has['mary', 'proposering']
+		jealousy['jack']
+		at['jack', 'street']
+	effects:
+		not-at['jack', 'street']
+		steal['jack', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-143-a9e9['jack', 'mary', 'shop', 'proposering']
+	preconditions:
+		at['mary', 'shop']
+		has['mary', 'proposering']
+		jealousy['jack']
+		at['jack', 'shop']
+	effects:
+		not-at['jack', 'shop']
+		steal['jack', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-144-a9e9['mary', 'bob', 'park', 'proposering']
+	preconditions:
+		at['bob', 'park']
+		has['bob', 'proposering']
+		jealousy['mary']
+		at['mary', 'park']
+	effects:
+		not-at['mary', 'park']
+		steal['mary', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-145-a9e9['mary', 'bob', 'street', 'proposering']
+	preconditions:
+		at['bob', 'street']
+		has['bob', 'proposering']
+		jealousy['mary']
+		at['mary', 'street']
+	effects:
+		not-at['mary', 'street']
+		steal['mary', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-146-a9e9['mary', 'bob', 'shop', 'proposering']
+	preconditions:
+		at['bob', 'shop']
+		has['bob', 'proposering']
+		jealousy['mary']
+		at['mary', 'shop']
+	effects:
+		not-at['mary', 'shop']
+		steal['mary', 'proposering']
+		desperate['bob']
+		not-has['bob', 'proposering']
+
+steal-147-a9e9['mary', 'jack', 'park', 'proposering']
+	preconditions:
+		at['jack', 'park']
+		has['jack', 'proposering']
+		jealousy['mary']
+		at['mary', 'park']
+	effects:
+		not-at['mary', 'park']
+		steal['mary', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-148-a9e9['mary', 'jack', 'street', 'proposering']
+	preconditions:
+		at['jack', 'street']
+		has['jack', 'proposering']
+		jealousy['mary']
+		at['mary', 'street']
+	effects:
+		not-at['mary', 'street']
+		steal['mary', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-149-a9e9['mary', 'jack', 'shop', 'proposering']
+	preconditions:
+		at['jack', 'shop']
+		has['jack', 'proposering']
+		jealousy['mary']
+		at['mary', 'shop']
+	effects:
+		not-at['mary', 'shop']
+		steal['mary', 'proposering']
+		desperate['jack']
+		not-has['jack', 'proposering']
+
+steal-150-a9e9['mary', 'mary', 'park', 'proposering']
+	preconditions:
+		at['mary', 'park']
+		has['mary', 'proposering']
+		jealousy['mary']
+		at['mary', 'park']
+	effects:
+		not-at['mary', 'park']
+		steal['mary', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-151-a9e9['mary', 'mary', 'street', 'proposering']
+	preconditions:
+		at['mary', 'street']
+		has['mary', 'proposering']
+		jealousy['mary']
+		at['mary', 'street']
+	effects:
+		not-at['mary', 'street']
+		steal['mary', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+steal-152-a9e9['mary', 'mary', 'shop', 'proposering']
+	preconditions:
+		at['mary', 'shop']
+		has['mary', 'proposering']
+		jealousy['mary']
+		at['mary', 'shop']
+	effects:
+		not-at['mary', 'shop']
+		steal['mary', 'proposering']
+		desperate['mary']
+		not-has['mary', 'proposering']
+
+give_ring-153-a3e5['bob', 'bob', 'park', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'park']
+		at['bob', 'park']
+		propose['bob', 'bob']
+		has['bob', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['bob', 'bob']
+
+give_ring-154-a3e5['bob', 'bob', 'street', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'street']
+		at['bob', 'street']
+		propose['bob', 'bob']
+		has['bob', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['bob', 'bob']
+
+give_ring-155-a3e5['bob', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'bob']
+		at['bob', 'shop']
+		at['bob', 'shop']
+		propose['bob', 'bob']
+		has['bob', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['bob', 'bob']
+
+give_ring-156-a3e5['bob', 'jack', 'park', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['jack', 'park']
+		at['bob', 'park']
+		propose['bob', 'jack']
+		has['bob', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['bob', 'jack']
+
+give_ring-157-a3e5['bob', 'jack', 'street', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['jack', 'street']
+		at['bob', 'street']
+		propose['bob', 'jack']
+		has['bob', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['bob', 'jack']
+
+give_ring-158-a3e5['bob', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'jack']
+		at['jack', 'shop']
+		at['bob', 'shop']
+		propose['bob', 'jack']
+		has['bob', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['bob', 'jack']
+
+give_ring-159-a3e5['bob', 'mary', 'park', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['mary', 'park']
+		at['bob', 'park']
+		propose['bob', 'mary']
+		has['bob', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['bob', 'mary']
+
+give_ring-160-a3e5['bob', 'mary', 'street', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['mary', 'street']
+		at['bob', 'street']
+		propose['bob', 'mary']
+		has['bob', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['bob', 'mary']
+
+give_ring-161-a3e5['bob', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['bob', 'mary']
+		at['mary', 'shop']
+		at['bob', 'shop']
+		propose['bob', 'mary']
+		has['bob', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['bob', 'mary']
+
+give_ring-162-a3e5['jack', 'bob', 'park', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['bob', 'park']
+		at['jack', 'park']
+		propose['jack', 'bob']
+		has['jack', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['jack', 'bob']
+
+give_ring-163-a3e5['jack', 'bob', 'street', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['bob', 'street']
+		at['jack', 'street']
+		propose['jack', 'bob']
+		has['jack', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['jack', 'bob']
+
+give_ring-164-a3e5['jack', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'bob']
+		at['bob', 'shop']
+		at['jack', 'shop']
+		propose['jack', 'bob']
+		has['jack', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['jack', 'bob']
+
+give_ring-165-a3e5['jack', 'jack', 'park', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'park']
+		at['jack', 'park']
+		propose['jack', 'jack']
+		has['jack', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['jack', 'jack']
+
+give_ring-166-a3e5['jack', 'jack', 'street', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'street']
+		at['jack', 'street']
+		propose['jack', 'jack']
+		has['jack', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['jack', 'jack']
+
+give_ring-167-a3e5['jack', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'jack']
+		at['jack', 'shop']
+		at['jack', 'shop']
+		propose['jack', 'jack']
+		has['jack', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['jack', 'jack']
+
+give_ring-168-a3e5['jack', 'mary', 'park', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['mary', 'park']
+		at['jack', 'park']
+		propose['jack', 'mary']
+		has['jack', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['jack', 'mary']
+
+give_ring-169-a3e5['jack', 'mary', 'street', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['mary', 'street']
+		at['jack', 'street']
+		propose['jack', 'mary']
+		has['jack', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['jack', 'mary']
+
+give_ring-170-a3e5['jack', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['jack', 'mary']
+		at['mary', 'shop']
+		at['jack', 'shop']
+		propose['jack', 'mary']
+		has['jack', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['jack', 'mary']
+
+give_ring-171-a3e5['mary', 'bob', 'park', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['bob', 'park']
+		at['mary', 'park']
+		propose['mary', 'bob']
+		has['mary', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['mary', 'bob']
+
+give_ring-172-a3e5['mary', 'bob', 'street', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['bob', 'street']
+		at['mary', 'street']
+		propose['mary', 'bob']
+		has['mary', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['mary', 'bob']
+
+give_ring-173-a3e5['mary', 'bob', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'bob']
+		at['bob', 'shop']
+		at['mary', 'shop']
+		propose['mary', 'bob']
+		has['mary', 'proposering']
+	effects:
+		happy['bob']
+		wait_accept['mary', 'bob']
+
+give_ring-174-a3e5['mary', 'jack', 'park', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['jack', 'park']
+		at['mary', 'park']
+		propose['mary', 'jack']
+		has['mary', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['mary', 'jack']
+
+give_ring-175-a3e5['mary', 'jack', 'street', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['jack', 'street']
+		at['mary', 'street']
+		propose['mary', 'jack']
+		has['mary', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['mary', 'jack']
+
+give_ring-176-a3e5['mary', 'jack', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'jack']
+		at['jack', 'shop']
+		at['mary', 'shop']
+		propose['mary', 'jack']
+		has['mary', 'proposering']
+	effects:
+		happy['jack']
+		wait_accept['mary', 'jack']
+
+give_ring-177-a3e5['mary', 'mary', 'park', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'park']
+		at['mary', 'park']
+		propose['mary', 'mary']
+		has['mary', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['mary', 'mary']
+
+give_ring-178-a3e5['mary', 'mary', 'street', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'street']
+		at['mary', 'street']
+		propose['mary', 'mary']
+		has['mary', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['mary', 'mary']
+
+give_ring-179-a3e5['mary', 'mary', 'shop', 'proposering']
+	preconditions:
+		love['mary', 'mary']
+		at['mary', 'shop']
+		at['mary', 'shop']
+		propose['mary', 'mary']
+		has['mary', 'proposering']
+	effects:
+		happy['mary']
+		wait_accept['mary', 'mary']
+
+walk-180-bc30['bob', 'park', 'street']
+	preconditions:
+		at['bob', 'park']
+	effects:
+		not-at['bob', 'park']
+		at['bob', 'street']
+
+walk-181-bc30['bob', 'park', 'shop']
+	preconditions:
+		at['bob', 'park']
+	effects:
+		not-at['bob', 'park']
+		at['bob', 'shop']
+
+walk-182-bc30['bob', 'street', 'park']
+	preconditions:
+		at['bob', 'street']
+	effects:
+		not-at['bob', 'street']
+		at['bob', 'park']
+
+walk-183-bc30['bob', 'street', 'shop']
+	preconditions:
+		at['bob', 'street']
+	effects:
+		not-at['bob', 'street']
+		at['bob', 'shop']
+
+walk-184-bc30['bob', 'shop', 'park']
+	preconditions:
+		at['bob', 'shop']
+	effects:
+		not-at['bob', 'shop']
+		at['bob', 'park']
+
+walk-185-bc30['bob', 'shop', 'street']
+	preconditions:
+		at['bob', 'shop']
+	effects:
+		not-at['bob', 'shop']
+		at['bob', 'street']
+
+walk-186-bc30['jack', 'park', 'street']
+	preconditions:
+		at['jack', 'park']
+	effects:
+		not-at['jack', 'park']
+		at['jack', 'street']
+
+walk-187-bc30['jack', 'park', 'shop']
+	preconditions:
+		at['jack', 'park']
+	effects:
+		not-at['jack', 'park']
+		at['jack', 'shop']
+
+walk-188-bc30['jack', 'street', 'park']
+	preconditions:
+		at['jack', 'street']
+	effects:
+		not-at['jack', 'street']
+		at['jack', 'park']
+
+walk-189-bc30['jack', 'street', 'shop']
+	preconditions:
+		at['jack', 'street']
+	effects:
+		not-at['jack', 'street']
+		at['jack', 'shop']
+
+walk-190-bc30['jack', 'shop', 'park']
+	preconditions:
+		at['jack', 'shop']
+	effects:
+		not-at['jack', 'shop']
+		at['jack', 'park']
+
+walk-191-bc30['jack', 'shop', 'street']
+	preconditions:
+		at['jack', 'shop']
+	effects:
+		not-at['jack', 'shop']
+		at['jack', 'street']
+
+walk-192-bc30['mary', 'park', 'street']
+	preconditions:
+		at['mary', 'park']
+	effects:
+		not-at['mary', 'park']
+		at['mary', 'street']
+
+walk-193-bc30['mary', 'park', 'shop']
+	preconditions:
+		at['mary', 'park']
+	effects:
+		not-at['mary', 'park']
+		at['mary', 'shop']
+
+walk-194-bc30['mary', 'street', 'park']
+	preconditions:
+		at['mary', 'street']
+	effects:
+		not-at['mary', 'street']
+		at['mary', 'park']
+
+walk-195-bc30['mary', 'street', 'shop']
+	preconditions:
+		at['mary', 'street']
+	effects:
+		not-at['mary', 'street']
+		at['mary', 'shop']
+
+walk-196-bc30['mary', 'shop', 'park']
+	preconditions:
+		at['mary', 'shop']
+	effects:
+		not-at['mary', 'shop']
+		at['mary', 'park']
+
+walk-197-bc30['mary', 'shop', 'street']
+	preconditions:
+		at['mary', 'shop']
+	effects:
+		not-at['mary', 'shop']
+		at['mary', 'street']
+
+dummy_init-198-9939[]
 	preconditions:
 	effects:
-		not-has-ticket['bob']
-		not-place['raleigh']
-		at['747', 'raleigh']
+		not-love['bob', 'jack']
+		not-desperate['mary']
+		not-wait_accept['bob', 'bob']
+		not-like['jack', 'jack']
+		not-propose['mary', 'mary']
+		not-love['mary', 'bob']
+		not-has['mary', 'proposering']
+		not-brave['mary']
+		not-place['park']
+		not-like['jack', 'bob']
+		not-propose['jack', 'mary']
+		not-place['street']
+		not-like['bob', 'jack']
+		not-like['mary', 'mary']
+		not-happy['mary']
+		not-happy['jack']
+		not-propose['bob', 'bob']
+		not-propose_accepted['bob', 'mary']
+		not-like['mary', 'jack']
+		not-brave['jack']
+		not-propose_accepted['mary', 'mary']
+		not-propose['bob', 'mary']
+		brave['bob']
+		not-delighted['jack']
+		not-desperate['jack']
+		at['jack', 'street']
+		not-love['mary', 'mary']
+		not-wait_accept['mary', 'mary']
+		at['bob', 'street']
+		not-wait_accept['mary', 'jack']
+		not-propose_accepted['bob', 'bob']
+		not-steal['jack', 'proposering']
 		not-person['bob']
-		at['bob', 'raleigh']
-		not-place['la']
-		at['accord', 'raleigh']
+		love['jack', 'mary']
+		not-has['jack', 'proposering']
+		not-like['jack', 'mary']
+		not-steal['mary', 'proposering']
+		not-propose_accepted['jack', 'bob']
+		not-propose['jack', 'jack']
+		not-delighted['bob']
+		not-wait_accept['jack', 'jack']
+		not-love['jack', 'bob']
+		not-jealousy['mary']
+		not-propose['mary', 'bob']
+		not-wait_accept['jack', 'mary']
+		not-desperate['bob']
+		not-wait_accept['mary', 'bob']
+		not-place['shop']
+		not-propose_accepted['bob', 'jack']
+		not-love['mary', 'jack']
+		not-wait_accept['bob', 'jack']
+		not-propose_accepted['mary', 'jack']
+		not-like['bob', 'bob']
+		not-like['bob', 'mary']
+		like['mary', 'bob']
+		not-happy['bob']
+		love['bob', 'mary']
+		not-propose['mary', 'jack']
+		not-steal['bob', 'proposering']
+		not-jealousy['bob']
+		not-has['bob', 'proposering']
+		at['proposering', 'shop']
+		not-wait_accept['bob', 'mary']
+		not-wait_accept['jack', 'bob']
+		not-propose_accepted['jack', 'mary']
+		not-person['mary']
+		not-propose_accepted['jack', 'jack']
+		not-person['jack']
+		at['mary', 'park']
+		not-propose_accepted['mary', 'bob']
+		not-love['bob', 'bob']
+		not-propose['bob', 'jack']
+		jealousy['jack']
+		not-propose['jack', 'bob']
+		not-love['jack', 'jack']
+		not-delighted['mary']
 
-dummy_goal-62-8258[]
+dummy_goal-199-8058[]
 	preconditions:
-		at['bob', 'la']
+		propose_accepted['bob', 'mary']
+		happy['mary']
 	effects:
 
