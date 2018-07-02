@@ -1,5 +1,6 @@
 
 from PyDPOCL import *
+from graph_depict import *
 
 if __name__ == '__main__':
 
@@ -27,7 +28,8 @@ if __name__ == '__main__':
 	#problems = [problem_file_1, problem_file_2, problem_file_3, problem_file_4,
 	 #          problem_file_5, problem_file_6, problem_file_7, problem_file_8]
 	# problems = [problem_file_8]
-	problems = [problem_file_1, problem_file_2]
+	#problems = [problem_file_1, problem_file_2]
+	problems = [problem_file_1]
 	d_name = domain_file.split('/')[-1].split('.')[0]
 
 	# for each problem, solve in 1 of 4 ways... but need way to run in different ways
@@ -65,4 +67,6 @@ if __name__ == '__main__':
 			print("%d step processing"%(i))
 			print('\t\t{}\n'.format(str(step)))
 			i=i+1
+		x=depict(out[0])
+		x.print_res()
 		# planner.solve(k=40, cutoff=10)
