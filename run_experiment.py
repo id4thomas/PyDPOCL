@@ -36,7 +36,7 @@ if __name__ == '__main__':
 		p_name = prob.split('/')[-1].split('.')[0]
 		uploadable_ground_step_library_name = 'Ground_Compiler_Library//' + d_name + '.' + p_name
 
-		RELOAD = 1
+		RELOAD = 0
 		if RELOAD:
 			print('reloading')
 			ground_steps = just_compile(domain_file, prob, uploadable_ground_step_library_name)
