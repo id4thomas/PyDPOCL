@@ -1,4 +1,5 @@
-
+import networkx as nx
+import matplotlib.pyplot as plt
 
 class depict:
     def __init__(self,out):
@@ -27,8 +28,9 @@ class depict:
         return {'name': source_name,'items': source_items}
 
     def print_res(self):
+        plt.figure(figsize=(7,7))
         print('\n\nOrdering Graph\n\n')
-
+        G=nx.DiGraph()
         relations=[]
         for eg in self.ans.OrderingGraph.edges:
             link = []
@@ -55,6 +57,9 @@ class depict:
             #link.append(sink_node)
             relations=relations+[link]
             print(link)
+            print(str(source_node))
+            G.add_edge(str(source_node),str(sink_node),color='r')
+
         print(relations)
         print('\n\nCausal Graph\n\n')
         relations=[]
@@ -80,5 +85,13 @@ class depict:
             link=link+[sink_node]
             relations=relations+[link]
             print(link)
-
+            G.add_edge(str(source_node),str(sink_node),color='b')
         print(relations)
+        pos = nx.circular_layout(G)
+        edges = G.edges()
+        colors = [G[u][v]['color'] for u,v in edges]
+        #weights = [G[u][v]['weight'] for u,v in edges]
+
+        nx.draw(G, pos, edges=edges, edge_color=colors,with_labels=True,font_size=6)
+        #plt.figure(figsize=(10,10))
+        plt.savefig("depiction.png")
