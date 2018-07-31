@@ -46,17 +46,18 @@
         :effect (delighted ?person2))
 
     (:action propose
-        :parameters (?lover - person ?loved - person ?place - place)
+        :parameters (?lover - person ?loved - person ?place - place ?ring - ring)
         :precondition (and (at ?lover ?place)
                            (at ?loved ?place)
                            (love ?lover ?loved)
-                           (brave ?lover))
+                           (brave ?lover)
+                           (has ?lover ?ring))
         :effect (and(proposed ?lover ?loved)))
 
     (:action fall_in_love
         :parameters (?loved - person ?lover - person)
         :precondition (and (like ?loved ?lover)
-                           (proposed ?lover ?loved))
+                           (delighted ?loved))
         :effect (and(love ?loved ?lover)))
 
     (:action steal

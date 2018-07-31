@@ -16,5 +16,5 @@
         (like Mary Bob)
         (jealousy Jack))
 
-    (:goal (and (propose_accepted Bob Mary)
+    (:goal (and (love Mary Bob)
                 (stolen_by Jack proposering))))
