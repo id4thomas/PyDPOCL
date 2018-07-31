@@ -17,4 +17,4 @@
         (jealousy Jack))
 
     (:goal (and (propose_accepted Bob Mary)
-                (steal Jack proposering))))
+                (stolen_by Jack proposering))))
