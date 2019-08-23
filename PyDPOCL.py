@@ -294,9 +294,9 @@ class GPlanner:
 			source = new_plan[src_index]
 			new_plan.OrderingGraph.addEdge(threat, source)
 			if hasattr(threat, 'sibling'):
-				new_plan.OrderingGraph.addEdge(source, threat.sibling)
+				new_plan.OrderingGraph.addEdge(threat.sibling,source)
 			if hasattr(source, 'sibling'):
-				new_plan.OrderingGraph.addEdge(source.sibling, threat)
+				new_plan.OrderingGraph.addEdge(threat,source.sibling)
 			threat.update_choices(new_plan)
 			self.insert(new_plan)
 			log_message('demotion {} behind {} in plan {}'.format(threat, source, new_plan.name))
