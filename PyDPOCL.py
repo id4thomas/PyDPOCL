@@ -48,7 +48,7 @@ class GPlanner:
 	Plan space planner, only instantiate once per planner, starts with ground steps
 	"""
 
-	def __init__(self, gsteps):
+	def __init__(self, gsteps,characters):
 		self.gsteps = gsteps
 		self.ID = uuid4()
 		self.h_step_dict = dict()
@@ -65,6 +65,7 @@ class GPlanner:
 		self.plan_num = 0
 		self.max_height = gsteps[-3].height
 
+		self.characters=characters
 	# Private Hooks #
 
 	def __len__(self):
@@ -153,8 +154,11 @@ class GPlanner:
 			self.plan_num = 0
 
 			if isinstance(flaw, TCLF):
-				tclf_visits += 1
-				self.resolve_threat(plan, flaw)
+				if self.resolve_threat(plan, flaw):
+					#same character
+					tclf_visits+=1
+				else:
+					expanded+=1
 			else:
 				# only count expanded nodes as those that resolve open conditions
 				expanded += 1
@@ -253,34 +257,74 @@ class GPlanner:
 		src_index = plan.index(tclf.link.source)
 		snk_index = plan.index(tclf.link.sink)
 
-		# Promotion
-		new_plan = plan.instantiate(str(self.plan_num)+ '[tp] ')
-		self.plan_num += 1
-		threat = new_plan[threat_index]
-		sink = new_plan[snk_index]
-		new_plan.OrderingGraph.addEdge(sink, threat)
-		if hasattr(threat, 'sibling'):
-			new_plan.OrderingGraph.addEdge(sink, threat.sibling)
-		if hasattr(sink, 'sibling'):
-			new_plan.OrderingGraph.addEdge(sink.sibling, threat)
-		threat.update_choices(new_plan)
-		self.insert(new_plan)
-		log_message('promote {} in front of {} in plan {}'.format(threat, sink, new_plan.name))
+		#check if threat between same characters
+		same_char=False
+		for character in self.characters:
+			if '\''+character+'\'' in str(tclf.link.sink) and '\''+character+'\'' in str(tclf.link.source):
+				#print('b',tclf.link.source,tclf.link.sink,tclf.threat)
+				same_char=True
+			if '\''+character+'\'' in str(tclf.threat) and '\''+character+'\'' in str(tclf.link.source):
+				#print('b',tclf.link.source,tclf.link.sink,tclf.threat)
+				same_char=True
+			if '\''+character+'\'' in str(tclf.link.sink) and '\''+character+'\'' in str(tclf.threat):
+				#print('b',tclf.link.source,tclf.link.sink,tclf.threat)
+				same_char=True
+
+		if same_char:
+			#threat between same character -> promotion, demotion
+			# Promotion
+			new_plan = plan.instantiate(str(self.plan_num)+ '[tp] ')
+			self.plan_num += 1
+			threat = new_plan[threat_index]
+			sink = new_plan[snk_index]
+			new_plan.OrderingGraph.addEdge(sink, threat)
+			if hasattr(threat, 'sibling'):
+				new_plan.OrderingGraph.addEdge(sink, threat.sibling)
+			if hasattr(sink, 'sibling'):
+				new_plan.OrderingGraph.addEdge(sink.sibling, threat)
+			threat.update_choices(new_plan)
+			self.insert(new_plan)
+			log_message('promote {} in front of {} in plan {}'.format(threat, sink, new_plan.name))
 
 
-		# Demotion
-		new_plan = plan.instantiate(str(self.plan_num) + '[td] ')
-		self.plan_num += 1
-		threat = new_plan[threat_index]
-		source = new_plan[src_index]
-		new_plan.OrderingGraph.addEdge(threat, source)
-		if hasattr(threat, 'sibling'):
-			new_plan.OrderingGraph.addEdge(source, threat.sibling)
-		if hasattr(source, 'sibling'):
-			new_plan.OrderingGraph.addEdge(source.sibling, threat)
-		threat.update_choices(new_plan)
-		self.insert(new_plan)
-		log_message('demotion {} behind {} in plan {}'.format(threat, source, new_plan.name))
+			# Demotion
+			new_plan = plan.instantiate(str(self.plan_num) + '[td] ')
+			self.plan_num += 1
+			threat = new_plan[threat_index]
+			source = new_plan[src_index]
+			new_plan.OrderingGraph.addEdge(threat, source)
+			if hasattr(threat, 'sibling'):
+				new_plan.OrderingGraph.addEdge(source, threat.sibling)
+			if hasattr(source, 'sibling'):
+				new_plan.OrderingGraph.addEdge(source.sibling, threat)
+			threat.update_choices(new_plan)
+			self.insert(new_plan)
+			log_message('demotion {} behind {} in plan {}'.format(threat, source, new_plan.name))
+
+		else:
+			#threat between different characters -> ignore and add plan as normal
+			new_plan = plan.instantiate(str(self.plan_num)+ '[test] ')
+			self.plan_num += 1
+			threat = new_plan[threat_index]
+			sink = new_plan[snk_index]
+			source = new_plan[src_index]
+
+			new_plan.OrderingGraph.addEdge(source, threat)
+			if hasattr(threat, 'sibling'):
+				new_plan.OrderingGraph.addEdge(source, threat.sibling)
+			if hasattr(source, 'sibling'):
+				new_plan.OrderingGraph.addEdge(source.sibling, threat)
+
+			new_plan.OrderingGraph.addEdge(threat, sink)
+			if hasattr(threat, 'sibling'):
+				new_plan.OrderingGraph.addEdge(threat.sibling,sink)
+			if hasattr(sink, 'sibling'):
+				new_plan.OrderingGraph.addEdge(threat,sink.sibling)
+
+			threat.update_choices(new_plan)
+			self.insert(new_plan)
+
+		return same_char
 
 	# Heuristic Methods #
 
