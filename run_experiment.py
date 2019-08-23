@@ -60,6 +60,7 @@ if __name__ == '__main__':
 		# planner.solve(k=40, cutoff=10)
 		plan_num=0
 		for plan in out:
+			print('Plan %d'%(plan_num+1))
 			#log files
 			out_f=open("./out_plan/plan_"+str(plan_num)+".txt",'w')
 			out_causal=open("./out_plan/causal_"+str(plan_num)+".txt",'w')

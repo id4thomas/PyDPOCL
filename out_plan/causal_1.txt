@@ -1,0 +1,29 @@
+Edge move['b', 'shop', 'ahome']_61cc --at['b', 'ahome']--> move['b', 'ahome', 'shop']_8696
+Edge move['b', 'shop', 'ahome']_61cc --at['b', 'ahome']--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge dummy_init[]_47f8 --not-purchased['diaper', 'a']--> purchase['a', 'diaper', 'shop']_fd0f
+Edge move['b', 'bhome', 'shop']_e7d2 --at['b', 'shop']--> purchase['b', 'diaper', 'shop']_b64b
+Edge dummy_init[]_47f8 --isstore['shop']--> refund['b', 'diaper', 'shop']_0f6a
+Edge purchase['b', 'diaper', 'shop']_b64b --purchased['diaper', 'b']--> dummy_goal[]_fc83
+Edge move['b', 'bhome', 'shop']_e7d2 --at['b', 'shop']--> move['b', 'shop', 'ahome']_61cc
+Edge purchase['a', 'diaper', 'shop']_fd0f --purchased['diaper', 'a']--> dummy_goal[]_fc83
+Edge purchase['b', 'diaper', 'shop']_b64b --have['diaper', 'b']--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge find_spare['b', 'diaper', 'ahome']_7eba --not-need['diaper', 'b']--> refund['b', 'diaper', 'shop']_0f6a
+Edge dummy_init[]_47f8 --need['diaper', 'b']--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge dummy_init[]_47f8 --at['b', 'bhome']--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --at['a', 'ahome']--> move['a', 'ahome', 'shop']_4034
+Edge dummy_init[]_47f8 --need['diaper', 'b']--> purchase['b', 'diaper', 'shop']_b64b
+Edge dummy_init[]_47f8 --not-purchased['diaper', 'b']--> purchase['b', 'diaper', 'shop']_b64b
+Edge dummy_init[]_47f8 --not-isstore['ahome']--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge move['a', 'ahome', 'shop']_4034 --at['a', 'shop']--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --at['b', 'bhome']--> move['b', 'bhome', 'shop']_e7d2
+Edge dummy_init[]_47f8 --need['diaper', 'a']--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --at['a', 'ahome']--> dummy_goal[]_fc83
+Edge purchase['b', 'diaper', 'shop']_b64b --have['diaper', 'b']--> refund['b', 'diaper', 'shop']_0f6a
+Edge dummy_init[]_47f8 --isstore['shop']--> purchase['b', 'diaper', 'shop']_b64b
+Edge dummy_init[]_47f8 --isstore['shop']--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --instock['diaper', 'shop']--> purchase['b', 'diaper', 'shop']_b64b
+Edge purchase['a', 'diaper', 'shop']_fd0f --not-instock['diaper', 'shop']--> dummy_goal[]_fc83
+Edge refund['b', 'diaper', 'shop']_0f6a --instock['diaper', 'shop']--> purchase['a', 'diaper', 'shop']_fd0f
+Edge refund['b', 'diaper', 'shop']_0f6a --refunded['diaper', 'b']--> dummy_goal[]_fc83
+Edge purchase['a', 'diaper', 'shop']_fd0f --have['diaper', 'a']--> dummy_goal[]_fc83
+Edge move['b', 'ahome', 'shop']_8696 --at['b', 'shop']--> refund['b', 'diaper', 'shop']_0f6a

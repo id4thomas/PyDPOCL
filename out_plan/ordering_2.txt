@@ -1,0 +1,30 @@
+Edge dummy_init[]_47f8 --<--> move['b', 'bhome', 'shop']_4022
+Edge move['b', 'bhome', 'shop']_4022 --<--> purchase['b', 'diaper', 'shop']_6d60
+Edge move['a', 'ahome', 'shop']_bf29 --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge move['b', 'bhome', 'shop']_4022 --<--> dummy_goal[]_fc83
+Edge move['b', 'bhome', 'shop']_4022 --<--> move['b', 'shop', 'bhome']_a1e3
+Edge move['b', 'shop', 'bhome']_a1e3 --<--> move['b', 'bhome', 'shop']_b09b
+Edge dummy_init[]_47f8 --<--> move['a', 'ahome', 'shop']_bf29
+Edge move['a', 'ahome', 'shop']_bf29 --<--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --<--> move['b', 'bhome', 'shop']_b09b
+Edge move['b', 'bhome', 'shop']_b09b --<--> dummy_goal[]_fc83
+Edge move['b', 'bhome', 'shop']_b09b --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge find_spare['b', 'diaper', 'bhome']_a3be --<--> move['b', 'bhome', 'shop']_b09b
+Edge purchase['a', 'diaper', 'shop']_fd0f --<--> dummy_goal[]_fc83
+Edge purchase['a', 'diaper', 'shop']_fd0f --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge purchase['b', 'diaper', 'shop']_6d60 --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge find_spare['b', 'diaper', 'bhome']_a3be --<--> dummy_goal[]_fc83
+Edge refund['b', 'diaper', 'shop']_0f6a --<--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --<--> purchase['b', 'diaper', 'shop']_6d60
+Edge find_spare['b', 'diaper', 'bhome']_a3be --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge dummy_init[]_47f8 --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge dummy_init[]_47f8 --<--> find_spare['b', 'diaper', 'bhome']_a3be
+Edge dummy_init[]_47f8 --<--> dummy_goal[]_fc83
+Edge purchase['b', 'diaper', 'shop']_6d60 --<--> dummy_goal[]_fc83
+Edge purchase['b', 'diaper', 'shop']_6d60 --<--> find_spare['b', 'diaper', 'bhome']_a3be
+Edge purchase['b', 'diaper', 'shop']_6d60 --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge dummy_init[]_47f8 --<--> move['b', 'shop', 'bhome']_a1e3
+Edge purchase['b', 'diaper', 'shop']_6d60 --<--> move['b', 'shop', 'bhome']_a1e3
+Edge move['b', 'shop', 'bhome']_a1e3 --<--> dummy_goal[]_fc83
+Edge move['b', 'shop', 'bhome']_a1e3 --<--> find_spare['b', 'diaper', 'bhome']_a3be

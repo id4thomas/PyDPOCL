@@ -1,0 +1,29 @@
+Edge move['b', 'bhome', 'shop']_e7d2 --<--> move['b', 'shop', 'ahome']_61cc
+Edge purchase['b', 'diaper', 'shop']_b64b --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge purchase['b', 'diaper', 'shop']_b64b --<--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --<--> purchase['b', 'diaper', 'shop']_b64b
+Edge find_spare['b', 'diaper', 'ahome']_7eba --<--> move['b', 'ahome', 'shop']_8696
+Edge dummy_init[]_47f8 --<--> move['b', 'shop', 'ahome']_61cc
+Edge move['b', 'shop', 'ahome']_61cc --<--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --<--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge move['b', 'shop', 'ahome']_61cc --<--> move['b', 'ahome', 'shop']_8696
+Edge move['b', 'bhome', 'shop']_e7d2 --<--> purchase['b', 'diaper', 'shop']_b64b
+Edge find_spare['b', 'diaper', 'ahome']_7eba --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge find_spare['b', 'diaper', 'ahome']_7eba --<--> dummy_goal[]_fc83
+Edge purchase['a', 'diaper', 'shop']_fd0f --<--> dummy_goal[]_fc83
+Edge refund['b', 'diaper', 'shop']_0f6a --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --<--> move['a', 'ahome', 'shop']_4034
+Edge dummy_init[]_47f8 --<--> move['b', 'bhome', 'shop']_e7d2
+Edge dummy_init[]_47f8 --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge move['a', 'ahome', 'shop']_4034 --<--> dummy_goal[]_fc83
+Edge move['b', 'bhome', 'shop']_e7d2 --<--> dummy_goal[]_fc83
+Edge purchase['b', 'diaper', 'shop']_b64b --<--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge purchase['b', 'diaper', 'shop']_b64b --<--> move['b', 'shop', 'ahome']_61cc
+Edge refund['b', 'diaper', 'shop']_0f6a --<--> dummy_goal[]_fc83
+Edge dummy_init[]_47f8 --<--> refund['b', 'diaper', 'shop']_0f6a
+Edge move['a', 'ahome', 'shop']_4034 --<--> purchase['a', 'diaper', 'shop']_fd0f
+Edge dummy_init[]_47f8 --<--> dummy_goal[]_fc83
+Edge move['b', 'shop', 'ahome']_61cc --<--> find_spare['b', 'diaper', 'ahome']_7eba
+Edge dummy_init[]_47f8 --<--> move['b', 'ahome', 'shop']_8696
+Edge move['b', 'ahome', 'shop']_8696 --<--> dummy_goal[]_fc83
+Edge move['b', 'ahome', 'shop']_8696 --<--> refund['b', 'diaper', 'shop']_0f6a

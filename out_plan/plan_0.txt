@@ -1,0 +1,10 @@
+32 step processing		dummy_init[]_47f8
+33 step processing		move['b', 'bhome', 'shop']_91ab
+34 step processing		move['a', 'ahome', 'shop']_fa0c
+35 step processing		purchase['b', 'diaper', 'shop']_6d60
+36 step processing		move['b', 'shop', 'ahome']_2977
+37 step processing		purchase['a', 'diaper', 'shop']_fd0f
+38 step processing		find_spare['b', 'diaper', 'ahome']_9af0
+39 step processing		move['b', 'ahome', 'shop']_bb8d
+40 step processing		refund['b', 'diaper', 'shop']_0f6a
+41 step processing		dummy_goal[]_fc83
