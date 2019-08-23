@@ -73,13 +73,14 @@ if __name__ == '__main__':
 			for lnk in list(plan.OrderingGraph.edges):
 				out_ordering.write(str(lnk)+'\n')
 
+			step_num=0
 			#write plan to file
 			for step in plan.OrderingGraph.topoSort():
-				print("%d step processing"%(i))
-				out_f.write("%d step processing"%(i))
+				print("%d step processing"%(step_num))
+				out_f.write("%d step processing"%(step_num))
 				print('\t\t{}\n'.format(str(step)))
 				out_f.write('\t\t{}\n'.format(str(step)))
-				i=i+1
+				step_num+=1
 			#close log files
 			out_f.close()
 			out_ordering.close()
