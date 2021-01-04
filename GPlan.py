@@ -78,10 +78,10 @@ class GPlan:
 		# baseline condition:
 		# self.cost += 1
 		# self.cost += (2 * 2 + 1) - (step.height * step.height)
-		if step.height > 0:
-			self.insert_decomp(step)
-		else:
-			self.insert_primitive(step)
+		# if step.height > 0:
+		# 	self.insert_decomp(step)
+		# else:
+		self.insert_primitive(step)
 
 
 	def insert_primitive(self, new_step):
